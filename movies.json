@@ -48,6 +48,13 @@
     "genre":"Fantasty/Comedy music",
     },
     
+    {"title":  "Muppets Most Wanted",
+    "studio": "Walt Disney Pictures",
+    "year": 2014,
+    "gross": "46,870,308",
+    "genre":"Comedy music/Adventure",
+    },
+    
   {"title":"Star Wars: The Force Awakens",
     "studio":"Walt Disney Pictures",
     "year":"2015",
