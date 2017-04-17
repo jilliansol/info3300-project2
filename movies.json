@@ -1,9 +1,50 @@
 [
-  {"title":,
-    "studio":,
-    "year":,
-    "revenue":,
+    {"title":  "The LEGO Movie",
+    "studio": "Warner Bros. Pictures",
+    "year": 2014,
+    "gross": "251,779,672",
+    "genre":  "Fantasy/Adventure",
+    },
+    
+    {"title":  "300: Rise of An Empire",
+    "studio": "Warner Bros. Pictures",
+    "year": 2014,
+    "gross": "105,194,681",
+    "genre": "Fantasy/Drama",
+    },
+
+    {"title":  "The Hobbit: The Desolation of Smaug",
+    "studio": "Warner Bros. Pictures",
+    "year": 2014,
+    "gross": "56,821,026",
+    "genre":"Fantasy/Drama",
+    },
+    
+    {"title":  "Her (2013)",
+    "studio": "Warner Bros. Pictures",
+    "year": 2014,
+    "gross": "23,708,110",
     "genre":,
-    "rank":
-  }
+    },
+    
+    {"title":  "Gravity",
+    "studio": "Warner Bros. Pictures",
+    "year": 2014,
+    "gross": "19,027,636",
+    "genre":"Drama film/Romance",
+    },
+    
+    {"title":  "Captain America: The Winter Soldier",
+    "studio": "Walt Disney Pictures",
+    "year": 2014,
+    "gross": "170,596,745",
+    "genre":"Science Fiction film/Thriller",
+    },
+
+    {"title":  "Frozen",
+    "studio": "Walt Disney Pictures",
+    "year": 2014,
+    "gross": "136,478,956",
+    "genre":"Fantasty/Comedy music",
+    },
 ]
