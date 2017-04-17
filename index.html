@@ -13,3 +13,29 @@ svg { border: solid #ccc 1px; }
 </style>
 </head>
 <body>
+
+<svg width = "500" height = "500"></svg>
+<script>
+    
+var svg = d3.select("svg"),
+    radius = Math.min("width","height")/2;
+
+var pie = d3.pie()
+    .sort(null)
+    .value(function (marketData){return marketData.Gross});
+
+var path = d3.arc()
+    .outerRadius(radius-10)
+    .innerRadius(0);
+    
+var marketData;
+d3.json("market.json", function(error,data){
+    if (error) return console.warn(error);
+    marketData = data;
+});
+    
+
+</script>
+    
+    
+</body>
