@@ -1,0 +1,104 @@
+{
+    "details": [
+        {
+            "studios": "Disney",
+            "details": [
+                {
+                    "genre": "Animation",
+                    "details": [
+                        {
+                            "name": "Inside Out",
+                            "Gross": 857.6
+                        },
+                        {
+                            "name": "The Good Dinosaur",
+                            "Gross": 332.2
+                        }
+                    ]
+                },
+                {
+                    "genre": "Action",
+                    "details": [
+                        {
+                            "name": "Tomorrowland",
+                            "Gross": 209.2
+                        },
+                        {
+                            "name": "Star Wars The Force Awakens",
+                            "Gross": 2066.0
+                        }
+                    ]
+                },
+                {
+                    "genre": "Documentary",
+                    "details": [
+                        {
+                            "name": "Monkey Kingdom",
+                            "Gross": 17.1
+                        }
+                    ]
+                },
+                {
+                    "genre": "Romance",
+                    "details": [
+                        {
+                            "name": "Cinderella",
+                            "Gross": 543.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "studios": "Warner",
+            "details": [
+                {
+                    "genre": "Fantasy",
+                    "details": [
+                        {
+                            "name": "Mad Max Fury Road",
+                            "Gross": 378.9
+                        }
+                    ]
+                },
+                {
+                    "genre": "Drama",
+                    "details": [
+                        {
+                            "name": "San Andreas",
+                            "Gross": 474.0
+                        },
+                        {
+                            "name": "In the Heart of the Sea",
+                            "Gross": 93.9
+                        }
+                    ]
+                },
+                {
+                    "genre": "Mstery",
+                    "details": [
+                        {
+                            "name": "Run All Night",
+                            "Gross": 71.7
+                        },
+                        
+                    ]
+                },
+                {
+                    "genre": "Comedy",
+                    "details": [
+                        {
+                            "name": "The Intern",
+                            "Gross": 194.6
+                        },
+                        {
+                            "name": "Get Hard",
+                            "Gross": 111.8
+                        },
+                    ]
+                },
+            ]
+        }
+    ]
+}
+       
