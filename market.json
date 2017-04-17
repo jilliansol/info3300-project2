@@ -1,0 +1,74 @@
+[
+  {"year":"2016",
+    "studio":"Columbia Pictures",
+    "market_share":"8.07"
+  },
+  {"year":"2016",
+    "studio":"Paramount Pictures",
+    "market_share":"7.50"
+  },
+  {"year":"2016",
+    "studio":"Walt Disney Pictures",
+    "market_share":"26.09"
+  },
+  {"year":"2016",
+    "studio":"Warner Bros. Pictures",
+    "market_share":"16.86"
+  },
+  {"year":"2016",
+    "studio":"20th Century Fox",
+    "market_share":"12.92"
+  },
+  {"year":"2016",
+    "studio":"Universal Pictures",
+    "market_share":"12.50"
+  },
+  {"year":"2015",
+    "studio":"Columbia Pictures",
+    "market_share":"8.5"
+  },
+  {"year":"2015",
+    "studio":"Paramount Pictures",
+    "market_share":"6.2"
+  },
+  {"year":"2015",
+    "studio":"Walt Disney Pictures",
+    "market_share":"20.7"
+  },
+  {"year":"2015",
+    "studio":"Warner Bros. Pictures",
+    "market_share":"14.0"
+  },
+  {"year":"2015",
+    "studio":"20th Century Fox",
+    "market_share":"12.7"
+  },
+  {"year":"2015",
+    "studio":"Universal Pictures",
+    "market_share":"21.6"
+  },
+  {"year":"2014",
+    "studio":"Columbia Pictures",
+    "market_share":"11.6"
+  },
+  {"year":"2014",
+    "studio":"Paramount Pictures",
+    "market_share":"9.7"
+  },
+  {"year":"2014",
+    "studio":"Walt Disney Pictures",
+    "market_share":"14.9"
+  },
+  {"year":"2014",
+    "studio":"Warner Bros. Pictures",
+    "market_share":"14.4"
+  },
+  {"year":"2014",
+    "studio":"20th Century Fox",
+    "market_share":"16.5"
+  },
+  {"year":"2014",
+    "studio":"Universal Pictures",
+    "market_share":"10.3"
+  }
+]
