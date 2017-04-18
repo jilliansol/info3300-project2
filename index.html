@@ -44,13 +44,27 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
+// d3.json("movies.json", function(error, mData) {
+//     movieData = mData;
+// });
 d3.json("market.json", function(error, data) {
   node = data;
-
   var g = svg.selectAll(".arc")
       .data(pie(node))
       .enter().append("g")
-      .attr("class", "arc");
+      .attr("class", "arc")
+      .on("click", function(d) {
+          // console.log(movieData);
+          // if (d.data.studio == i.movieData.studio){
+          //   console.log("hey");
+          // }
+        });
+        // d3.select("#svg2").append("text")
+        //   .attr("x", "10")
+        //   .attr("y", "10")
+        //   .text(d.data.);
+
+      // });
 
   g.append("path")
       .attr("d", arc)
