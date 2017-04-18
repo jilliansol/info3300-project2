@@ -5,7 +5,9 @@
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="http://d3js.org/topojson.v2.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js">
+src="http://d3js.org/d3.v3.min.js"
+</script>
 <style>
 body { font-family: 'Asar', Calibri, sans-serif; }
 svg { border: solid #ccc 1px; }
@@ -17,22 +19,47 @@ svg { border: solid #ccc 1px; }
 <svg width = "500" height = "500"></svg>
 <script>
     
-var svg = d3.select("svg"),
-    radius = Math.min("width","height")/2;
+///////////////////////////////////////////////////////
+    
+///////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////
+
+var dataset = [
+    { label:"Columbia Pictures", count :8.07},
+    { label:"Paramount Pictures", count :7.50},
+    { label:"Walt Disney Pictures", count :26.09},
+    { label:"Warner Bros. Pictures", count :16.86},
+];
+    
+var color = d3.scaleOrdinal(d3.schemeCategory20b);
+
+var width = 500;
+var height = 500;
+var radius = Math.min(width,height)/2;
+
+var svg = d3.select("svg")
+    .attr('width', width)
+    .attr('height', height)
+    .append('g')
+    .attr('transform', 'translate(' + (width / 2) +  ',' + (height / 2) + ')');
+
+var arc = d3.arc()
+  .innerRadius(0)
+  .outerRadius(radius);
 
 var pie = d3.pie()
-    .sort(null)
-    .value(function (marketData){return marketData.Gross});
+  .value(function(d) { return d.count; })
+  .sort(null);
 
-var path = d3.arc()
-    .outerRadius(radius-10)
-    .innerRadius(0);
-    
-var marketData;
-d3.json("market.json", function(error,data){
-    if (error) return console.warn(error);
-    marketData = data;
-});
+var path = svg.selectAll('path')
+  .data(pie(dataset))
+  .enter()
+  .append('path')
+  .attr('d', arc)
+  .attr('fill', function(d, i) {
+    return color(d.data.label);
+  });
     
 
 </script>
