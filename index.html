@@ -44,9 +44,6 @@ var svg = d3.select("body").append("svg")
     .append("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-// d3.json("movies.json", function(error, mData) {
-//     movieData = mData;
-// });
 d3.json("market.json", function(error, data) {
   node = data;
   var g = svg.selectAll(".arc")
@@ -54,17 +51,8 @@ d3.json("market.json", function(error, data) {
       .enter().append("g")
       .attr("class", "arc")
       .on("click", function(d) {
-          // console.log(movieData);
-          // if (d.data.studio == i.movieData.studio){
-          //   console.log("hey");
-          // }
-        });
-        // d3.select("#svg2").append("text")
-        //   .attr("x", "10")
-        //   .attr("y", "10")
-        //   .text(d.data.);
-
-      // });
+          matchStudio(d.data.studio);
+      });
 
   g.append("path")
       .attr("d", arc)
@@ -77,6 +65,20 @@ d3.json("market.json", function(error, data) {
       .text(function (d) { return d.data.studio; });
 });
 
+function matchStudio(studio) {
+  d3.json("movies.json", function(error, data) {
+    nodes = data;
+    for (i=0; i<nodes.length; i++){
+      if (studio == nodes[i].studio){
+        console.log(nodes[i].title);
+        d3.select("#svg2").append("text")
+          .attr("x", "20")
+          .attr("y", "20")
+          .text(nodes[i].title);
+      }
+    }
+  });
+}
 </script>
 
 
