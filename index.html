@@ -22,11 +22,11 @@ svg { border: solid #ccc 1px; }
       <div id="years">
       <ul>
         <button id="2016" class="selected" onclick = which_year(2016)>2016</button>
-        <button id="2015" class="" onclick = which_year(2015)>2015</button> 
+        <button id="2015" class="" onclick = which_year(2015)>2015</button>
         <button id="2014" class="" onclick = which_year(2014)>2014</button>
-      </ul>           
-    </div> 
-</div> 
+      </ul>
+    </div>
+</div>
 <script>
 
 
@@ -61,7 +61,7 @@ d3.json("market.json", function(error, data) {
         .enter().append("g")
         .attr("class", "arc")
         .on("click", function(d) {
-            matchStudio(d.data.studio);
+            matchStudio(d.data.studio, year);
         });
 
     g.append("path")
@@ -77,13 +77,14 @@ d3.json("market.json", function(error, data) {
   }
 });
 }
+
 //function to find movies that match user-picked studio
 var h = 30;
-function matchStudio(studio) {
+function matchStudio(studio, year) {
   d3.json("movies.json", function(error, data) {
     nodes = data;
     for (i=0; i<nodes.length; i++){
-      if (studio == nodes[i].studio){
+      if (studio == nodes[i].studio && year == nodes[i].year){
         console.log(nodes[i].title);
         d3.select("#svg2").append("text")
           .attr("x", 20)
@@ -102,10 +103,10 @@ function matchStudio(studio) {
 
     var year = d.year;
     var yearString = "Year: " + year;
-    
+
     d3.select("#gross")
       .text(grossString);
-    
+
     d3.select("#year")
     .text(yearString);
 
