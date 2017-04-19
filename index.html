@@ -17,15 +17,19 @@ svg { border: solid #ccc 1px; }
 <svg width = "500" height = "500"></svg>
 <svg id="svg2" width="500" height="500"></svg>
 
-<div id="year">
+<div id="differentyear">
     <h2>Select a Year:</h2><br>
-      <div id="years">
+      <div id="differentyears">
       <ul>
-        <button id="2016" class="selected" onclick = which_year(2016)>2016</button>
-        <button id="2015" class="" onclick = which_year(2015)>2015</button>
-        <button id="2014" class="" onclick = which_year(2014)>2014</button>
-      </ul>
-    </div>
+        <button id="2016" name="2016" class="selected" onclick = which_year(this,2016)>2016</button>
+        <button id="2015" name="2015" class="" onclick = which_year(this,2015)>2015</button> 
+        <button id="2014" name="2014" class="" onclick = which_year(this,2014)>2014</button>
+      </ul>           
+    </div> 
+</div> 
+<div id="details" style="visibility: hidden;">
+          <span id="year" style="font-weight: bold; font-size: 25pt"></span><br/>
+          <span id="gross" style="font-weight: bold; font-size: 25pt"></span><br/>
 </div>
 <script>
 
@@ -96,30 +100,19 @@ function matchStudio(studio, year) {
   });
 }
 
-  function mouseover(d) {
 
-    var gross  = "$" + d.gross;
-    var grossString = "Gross: " + gross;
+var buttonClicked = null;
 
-    var year = d.year;
-    var yearString = "Year: " + year;
-
-    d3.select("#gross")
-      .text(grossString);
-
-    d3.select("#year")
-    .text(yearString);
-
-    d3.select("#details")
-      .style("visibility", "");
-
-    d3.selectAll("path")
-      .style("opacity", 0.25);
-  }
-
-
-function which_year(year){
+function which_year(element, year){
   data_by_year(year);
+  if (buttonClicked != null) {
+        buttonClicked.style.background = "white";
+        buttonClicked.style.color = "black";
+    }
+    buttonClicked = element;
+    buttonClicked.style.background = "red";
+    buttonClicked.style.color = "white";
+
 }
 data_by_year(2016);
 
