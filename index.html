@@ -39,37 +39,27 @@ var svg = d3.select("svg").append("svg")
     .append("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-svg.append("text")
-    .attr("id", "MarketShare")
-    .attr("x", 30)
-    .attr("y", 30)
-    .style("font-size", "36pt");
-
 d3.json("market.json", function(error, data) {
   node = data;
-  // for (i=0; i<node.length; i++){
-  //   var years = node[i].year;
-  //   console.log(years);
+  for (i=0; i<node.length; i++){
+    var g = svg.selectAll(".arc")
+        .data(pie(node[i].details))
+        .enter().append("g")
+        .attr("class", "arc")
+        .on("click", function(d) {
+            matchStudio(d.data.studio);
+        });
 
-  var g = svg.selectAll(".arc")
-      .data(pie(node))
-      .enter().append("g")
-      .attr("class", "arc")
-      .on("click", function(d) {
-          matchStudio(d.data.studio);
-      });
+    g.append("path")
+        .attr("d", arc)
+        .style("fill", function(d) { return color(d.data.studio); });
 
-  g.append("path")
-      .attr("d", arc)
-      .style("fill", function(d) { return color(d.data.studio); });
-
-  g.append("text")
-      .attr("transform", function (d) { return "translate(" + arc.centroid(d) + ")"; })
-      .attr("dy", ".35em")
-      .style("text-anchor", "middle")
-      .text(function (d) { return d.data.studio; });
-
-// }
+    g.append("text")
+        .attr("transform", function (d) { return "translate(" + arc.centroid(d) + ")"; })
+        .attr("dy", ".35em")
+        .style("text-anchor", "middle")
+        .text(function (d) { return d.data.studio; });
+  }
 });
 
 //function to find movies that match user-picked studio
