@@ -1,137 +1,137 @@
 [
-    {"title":  "The LEGO Movie",
-    "studio": "Warner Bros. Pictures",
-    "year": "2014",
-    "gross": "251779672",
-    "genre":  "Fantasy/Adventure"
-    },
-    
-    {"title":  "300: Rise of An Empire",
-    "studio": "Warner Bros. Pictures",
-    "year": "2014",
-    "gross": "105194681",
-    "genre": "Fantasy/Drama"
-    },
+  {"title":"The LEGO Movie",
+    "studio":"Warner Bros. Pictures",
+    "year":"2014",
+    "gross":"251779672",
+    "genre":"Fantasy/Adventure"
+  },
 
-    {"title":  "The Hobbit: The Desolation of Smaug",
+  {"title":"300: Rise of An Empire",
+    "studio":"Warner Bros. Pictures",
+    "year":"2014",
+    "gross":"105194681",
+    "genre":"Fantasy/Drama"
+  },
+
+  {"title":  "The Hobbit: The Desolation of Smaug",
     "studio": "Warner Bros. Pictures",
     "year": "2014",
     "gross": "56821026",
     "genre":"Fantasy/Drama"
-    },
-    
-    {"title":  "Her",
+  },
+
+  {"title":  "Her",
     "studio": "Warner Bros. Pictures",
     "year": "2014",
     "gross": "23708110",
     "genre":"Drama/Romance"
-    },
-    
-    {"title":  "Gravity",
+  },
+
+  {"title":  "Gravity",
     "studio": "Warner Bros. Pictures",
     "year": "2014",
     "gross": "19027636",
     "genre":"Fantasy/Science Fiction"
-    },
-    
-    {"title":  "Captain America: The Winter Soldier",
+  },
+
+  {"title":  "Captain America: The Winter Soldier",
     "studio": "Walt Disney Pictures",
     "year": "2014",
     "gross": "170596745",
     "genre":"Science Fiction film/Thriller"
-    },
+  },
 
-    {"title":  "Frozen",
+  {"title":  "Frozen",
     "studio": "Walt Disney Pictures",
     "year": "2014",
     "gross": "136478956",
     "genre":"Fantasty/Comedy music"
-    },
-    
-    {"title":"Muppets Most Wanted",
+  },
+
+  {"title":"Muppets Most Wanted",
     "studio": "Walt Disney Pictures",
     "year": "2014",
     "gross": "46870308",
     "genre":"Comedy music/Adventure"
-    },
-    
+  },
+
   {"title":"Star Wars: The Force Awakens",
     "studio":"Walt Disney Pictures",
     "year":"2015",
     "gross":"651967269",
     "genre":"Fantasy/Science Fiction"
   },
-    
+
   {"title":"Avengers: Age of Ultron",
     "studio":"Walt Disney Pictures",
     "year":"2015",
     "gross":"459005868",
     "genre":"Action/Science Fiction"
   },
-    
+
   {"title":"Jurassic World",
     "studio":"Universal Pictures",
     "year":"2015",
     "gross":"652270625",
     "genre":"Thriller/Science Fiction"
   },
-    
+
   {"title":"Furious 7",
     "studio":"Universal Pictures",
     "year":"2015",
     "gross":"353007020",
     "genre":"Crime/Thriller"
   },
-    
+
   {"title":"American Sniper",
     "studio":"Warner Bros. Pictures",
     "year":"2015",
     "gross":"348797073",
     "genre":"Drama/Action"
   },
-    
+
   {"title":"San Andreas",
     "studio":"Warner Bros. Pictures",
     "year":"2015",
     "gross":"155190832",
     "genre":"Drama/Disaster"
   },
-    
+
   {"title":"The Martian",
     "studio":"20th Century Fox",
     "year":"2015",
     "gross":"225345353",
     "genre":"Fantasy/Science Fiction"
   },
-    
+
   {"title":"Home (2015)",
     "studio":"20th Century Fox",
     "year":"2015",
     "gross":"177397510",
     "genre":"Fantasy/Science Fiction"
   },
-    
+
   {"title":"Spectre",
     "studio":"Columbia Pictures",
     "year":"2015",
     "gross":"197102585",
     "genre":"Crime/Thriller"
   },
-    
+
   {"title":"Hotel Transylvania 2",
     "studio":"Columbia Pictures",
     "year":"2015",
     "gross":"168471018",
     "genre":"Fantasy/Action"
   },
-    
+
   {"title":"Mission: Impossible - Rogue Nation",
     "studio":"Paramount Pictures",
     "year":"2015",
     "gross":"195042377",
     "genre":"Thriller/Action"
   },
-    
+
   {"title":"The SpongeBob Movie: Sponge Out of Water",
     "studio":"Paramount Pictures",
     "year":"2015",
@@ -139,88 +139,87 @@
     "genre":"Fantasy/Adventure"
   },
 
-        {
-            "title": "Finding Dory",
-            "studio": "Walt Disney Pictures",
-            "year": "2016",
-            "gross": "486295561",
-            "genre": "Comedy"
-        },
-        {
-            "title": "Rogue One: A Star Wars Story",
-            "studio": "Walt Disney Pictures",
-            "year": "2016",
-            "gross": "408235850",
-            "genre": "Science Fiction"
-        },
-        {
-            "title": "Batman v Superman: Dawn of Justice",
-            "studio": "Warner Bros. Pictures",
-            "year": "2016",
-            "gross": "330360194",
-            "genre": "Science Fiction"
-        },
-        {
-            "title": "Suicide Squad",
-            "studio": "Warner Bros. Pictures",
-            "year": "2016",
-            "gross": "325100054",
-            "genre": "Science Fiction"
-        },
-        {
-            "title": "Deadpool",
-            "studio": "20th Century Fox",
-            "year": "2016",
-            "gross": "363070709",
-            "genre": "Science Fiction"
-        },
-        {
-            "title": "The Revenant",
-            "studio": "20th Century Fox",
-            "year": "2016",
-            "gross": "182765375",
-            "genre": "Thriller"
-        },
-        {
-            "title": "The Secret Life of Pets",
-            "studio": "Universal Pictures",
-            "year": "2016",
-            "gross": "368384330",
-            "genre": "Comedy"
-        },
-        {
-            "title": "Jason Bourne",
-            "studio": "Universal Pictures",
-            "year": "2016",
-            "gross": "162434410",
-            "genre": "Action"
-        },
-        {
-            "title": "Ghostbusters",
-            "studio": "Columbia Pictures",
-            "year": "2016",
-            "gross": "128350574",
-            "genre": "Science Fiction"
-        },
-        {
-            "title": "The Angry Birds Movie",
-            "studio": "Columbia Pictures",
-            "year": "2016",
-            "gross": "107509366",
-            "genre": "Action"
-        },
-        {
-            "title": "Star Trek Beyond",
-            "studio": "Paramount Pictures",
-            "year": "2016",
-            "gross": "158848340",
-            "genre": "Science Fiction"
-        },
-        {
-            "title": "Arrival",
-            "studio": "Paramount Pictures",
-            "year": "2016",
-            "gross": "91676099",
-            "genre": "Science Fiction"
-        }
+  {"title": "Finding Dory",
+    "studio": "Walt Disney Pictures",
+    "year": "2016",
+    "gross": "486295561",
+    "genre": "Comedy"
+  },
+
+  {"title": "Rogue One: A Star Wars Story",
+    "studio": "Walt Disney Pictures",
+    "year": "2016",
+    "gross": "408235850",
+    "genre": "Science Fiction"
+  },
+
+  {"title": "Batman v Superman: Dawn of Justice",
+    "studio": "Warner Bros. Pictures",
+    "year": "2016",
+    "gross": "330360194",
+    "genre": "Science Fiction"
+  },
+
+  {"title": "Suicide Squad",
+    "studio": "Warner Bros. Pictures",
+    "year": "2016",
+    "gross": "325100054",
+    "genre": "Science Fiction"
+  },
+
+  {"title": "Deadpool",
+    "studio": "20th Century Fox",
+    "year": "2016",
+    "gross": "363070709",
+    "genre": "Science Fiction"
+  },
+
+  {"title": "The Revenant",
+    "studio": "20th Century Fox",
+    "year": "2016",
+    "gross": "182765375",
+    "genre": "Thriller"
+  },
+
+  {"title": "The Secret Life of Pets",
+    "studio": "Universal Pictures",
+    "year": "2016",
+    "gross": "368384330",
+    "genre": "Comedy"
+  },
+
+  {"title": "Jason Bourne",
+    "studio": "Universal Pictures",
+    "year": "2016",
+    "gross": "162434410",
+    "genre": "Action"
+  },
+
+  {"title": "Ghostbusters",
+    "studio": "Columbia Pictures",
+    "year": "2016",
+    "gross": "128350574",
+    "genre": "Science Fiction"
+  },
+
+  {"title": "The Angry Birds Movie",
+    "studio": "Columbia Pictures",
+    "year": "2016",
+    "gross": "107509366",
+    "genre": "Action"
+  },
+
+  {"title": "Star Trek Beyond",
+    "studio": "Paramount Pictures",
+    "year": "2016",
+    "gross": "158848340",
+    "genre": "Science Fiction"
+  },
+
+  {"title": "Arrival",
+    "studio": "Paramount Pictures",
+    "year": "2016",
+    "gross": "91676099",
+    "genre": "Science Fiction"
+  }
 ]
