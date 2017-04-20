@@ -26,6 +26,7 @@ li {
 }
 #pg_top {
   background-color: #000000;
+  text-align: center;
   position: fixed;
   top: 0px;
   right: 0;
@@ -36,4 +37,11 @@ li {
   max-width: 960px;
   color: #ffffff;
   background-color: #000000;
+}
+h1 {
+  text-align: center;
+}
+.studioText {
+  color: gray;
+  text-shadow: 2px 2px 3px #FFFAC1;
 }
