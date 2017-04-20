@@ -1,5 +1,4 @@
 [
-  //2014 - Warner Bros
   {"title":"The LEGO Movie",
     "studio":"Warner Bros",
     "year":"2014",
@@ -70,7 +69,6 @@
     "genre":""
   },
 
-//2014 - Walt Disney
   {"title":  "Guardians of the Galaxy",
     "studio": "Walt Disney Pictures",
     "year": "2014",
@@ -141,7 +139,6 @@
     "genre":"Comedy music/Adventure"
   },
 
-//2014 - Universal
 
   {"title":"Neighbors",
     "studio": "Universal",
@@ -213,7 +210,6 @@
     "genre":""
   },
 
-// 2014 - 20th Century Fox
 {"title":"X-Men: Days of Future Past","studio":"20th Century Fox","year": "2014","gross":"233921534","genre":""},
 {"title":"Dawn of the Planet of the Apes","studio":"20th Century Fox","year": "2014","gross":"208545589","genre":""},
 {"title":"How to Train Your Dragon 2","studio":"20th Century Fox","year": "2014","gross":"177002924","genre":""},
@@ -230,7 +226,6 @@
 
 
 
-// 2015 - Walt Disney
   
   {"title":"Star Wars: The Force Awakens",
     "studio":"Walt Disney Pictures",
