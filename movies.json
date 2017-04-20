@@ -1,215 +1,4 @@
-[
-  {"title":"The LEGO Movie",
-    "studio":"Warner Bros",
-    "year":"2014",
-    "gross":"257760692",
-    "genre":""
-  },
-
-  {"title":"Godzilla (2014)",
-    "studio":"Warner Bros",
-    "year":"2014",
-    "gross":"200676069",
-    "genre":""
-  },
-
-  {"title":  "The Hobbit: The Battle of the Five Armies",
-    "studio": "Warner Bros",
-    "year": "2014",
-    "gross": "189549326",
-    "genre":""
-  },
-
-  {"title":"300: Rise of An Empire",
-    "studio":"Warner Bros",
-    "year":"2014",
-    "gross":"106580051",
-    "genre":""
-  },
-
-  {"title":  "Edge of Tomorrow",
-    "studio": "Warner Bros",
-    "year": "2014",
-    "gross": "100206256",
-    "genre":"Drama/Romance"
-  },
-
-  {"title":  "Tammy",
-    "studio": "Warner Bros",
-    "year": "2014",
-    "gross": "84525432",
-    "genre":""
-  },
-
-   {"title":  "Annabelle",
-    "studio": "Warner Bros",
-    "year": "2014",
-    "gross": "84273813",
-    "genre":""
-  },
-
-   {"title":  "The Hobbit: The Desolation of Smaug",
-    "studio": "Warner Bros",
-    "year": "2014",
-    "gross": "56824777",
-    "genre":""
-  },
-
-   {"title":  "Horrible Bosses 2",
-    "studio": "Warner Bros",
-    "year": "2014",
-    "gross": "51745425",
-    "genre":""
-  },
-
-   {"title":  "If I Stay",
-    "studio": "Warner Bros",
-    "year": "2014",
-    "gross": "50474843",
-    "genre":""
-  },
-
-  {"title":  "Guardians of the Galaxy",
-    "studio": "Walt Disney Pictures",
-    "year": "2014",
-    "gross": "332939602",
-    "genre":"",
-  },
-  
-  {"title":  "Captain America: The Winter Soldier",
-    "studio": "Walt Disney Pictures",
-    "year": "2014",
-    "gross": "259766572",
-    "genre":""
-  },
-
-  {"title":  "Maleficent",
-    "studio": "Walt Disney Pictures",
-    "year": "2014",
-    "gross": "241410378",
-    "genre":"",
-  },
-  
-  {"title":  "Big Hero 6",
-    "studio": "Walt Disney Pictures",
-    "year": "2014",
-    "gross": "204576654",
-    "genre":"",
-  },
-
-  {"title":  "Frozen",
-    "studio": "Walt Disney Pictures",
-    "year": "2014",
-    "gross": "136478956",
-    "genre":"Fantasty/Comedy music"
-  },
-
-  {"title":  "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
-    "studio": "Walt Disney Pictures",
-    "year": "2014",
-    "gross": "65640655",
-    "genre":""
-  },
-  
-  {"title":  "Into the Woods",
-    "studio": "Walt Disney Pictures",
-    "year": "2014",
-    "gross": "62062104",
-    "genre":""
-  },
-  
-  {"title":  "Planes: Fire & Rescue",
-    "studio": "Walt Disney Pictures",
-    "year": "2014",
-    "gross": "59165787",
-    "genre":""
-  },
-
-  {"title":"The Hundred-Foot Journey",
-    "studio": "Walt Disney Pictures",
-    "year": "2014",
-    "gross": "54240821",
-    "genre":""
-  },
-
-  {"title":"Muppets Most Wanted",
-    "studio": "Walt Disney Pictures",
-    "year": "2014",
-    "gross": "46870308",
-    "genre":"Comedy music/Adventure"
-  },
-
-
-  {"title":"Neighbors",
-    "studio": "Universal",
-    "year": "2014",
-    "gross": "150157400",
-    "genre":""
-  },
-  
-  {"title":"Ride Along",
-    "studio": "Universal",
-    "year": "2014",
-    "gross": "134938200",
-    "genre":""
-  },
-  
-  {"title":"Lucy",
-    "studio": "Universal",
-    "year": "2014",
-    "gross": "126663600",
-    "genre":""
-  },
-  
-  {"title":"Lone Survivor",
-    "studio": "Universal",
-    "year": "2014",
-    "gross": "1249072730",
-    "genre":""
-  },
-  
-  {"title":"Non-Stop",
-    "studio": "Universal",
-    "year": "2014",
-    "gross": "124907273",
-    "genre":""
-  },
-
-  {"title":"Dumb & Dumber To",
-    "studio": "Universal",
-    "year": "2014",
-    "gross": "84966865",
-    "genre":""
-  },
-  
-  {"title":"The Purge: Anarchy",
-    "studio": "Universal",
-    "year": "2014",
-    "gross": "71962800",
-    "genre":""
-  },
-
-  {"title":"Unbroken",
-    "studio": "Universal",
-    "year": "2014",
-    "gross": "62528610",
-    "genre":""
-  },
-
-  {"title":"Dracula Untold",
-    "studio": "Universal",
-    "year": "2014",
-    "gross": "56280335",
-    "genre":""
-  },
-
-  {"title":"Ouija",
-    "studio": "Universal",
-    "year": "2014",
-    "gross": "50856010",
-    "genre":""
-  }
-{
+[{
 		"title": "X-Men: Days of Future Past",
 		"studio": "20th Century Fox",
 		"year": "2014",
@@ -279,202 +68,1194 @@
 		"gross": "82390774",
 		"genre": ""
 	},
-
-
-
-
-
-
-
 	{
-		"title": "Star Wars: The Force Awakens",
-		"studio": "Walt Disney Pictures",
-		"year": "2015",
-		"gross": "651967269",
-		"genre": "Fantasy/Science Fiction"
+		"title": "Transformers: Age of Extinction",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "245439076",
+		"genre": ""
 	},
-
 	{
-		"title": "Avengers: Age of Ultron",
-		"studio": "Walt Disney Pictures",
-		"year": "2015",
-		"gross": "459005868",
-		"genre": "Action/Science Fiction"
+		"title": "Teenage Mutant Ninja Turtles (2014)",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "191204754",
+		"genre": ""
 	},
-
 	{
-		"title": "Jurassic World",
-		"studio": "Universal Pictures",
-		"year": "2015",
-		"gross": "652270625",
-		"genre": "Thriller/Science Fiction"
+		"title": "Interstellar",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "179387895",
+		"genre": ""
 	},
-
 	{
-		"title": "Furious 7",
-		"studio": "Universal Pictures",
-		"year": "2015",
-		"gross": "353007020",
-		"genre": "Crime/Thriller"
+		"title": "Noah",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "101200044",
+		"genre": ""
 	},
-
 	{
-		"title": "American Sniper",
-		"studio": "Warner Bros. Pictures",
-		"year": "2015",
-		"gross": "348797073",
-		"genre": "Drama/Action"
+		"title": "The Wolf of Wall Street",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "75451759",
+		"genre": ""
 	},
-
 	{
-		"title": "San Andreas",
-		"studio": "Warner Bros. Pictures",
-		"year": "2015",
-		"gross": "155190832",
-		"genre": "Drama/Disaster"
+		"title": "Hercules (2014)",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "72688614",
+		"genre": ""
 	},
-
+	{
+		"title": "Jack Ryan: Shadow Recruit",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "50577412",
+		"genre": ""
+	},
+	{
+		"title": "Anchorman 2: The Legend Continues",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "34588600",
+		"genre": ""
+	},
+	{
+		"title": "Paranormal Activity: The Marked Ones",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "32462372",
+		"genre": ""
+	},
+	{
+		"title": "Top Five",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "20707608",
+		"genre": ""
+	},
+	{
+		"title": "The Amazing Spider-Man 2",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "202853933",
+		"genre": ""
+	},
+	{
+		"title": "22 Jump Street",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "191719337",
+		"genre": ""
+	},
+	{
+		"title": "The Equalizer",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "101285438",
+		"genre": ""
+	},
+	{
+		"title": "Heaven is for Real",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "91443253",
+		"genre": ""
+	},
+	{
+		"title": "Fury (2014)",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "85244339",
+		"genre": ""
+	},
+	{
+		"title": "American Hustle",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "82599283",
+		"genre": ""
+	},
+	{
+		"title": "The Monuments Men",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "78031620",
+		"genre": ""
+	},
+	{
+		"title": "Think Like a Man Too",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "65182182",
+		"genre": ""
+	},
+	{
+		"title": "RoboCop (2014)",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "58607007",
+		"genre": ""
+	},
+	{
+		"title": "Annie (2014)",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "56951920",
+		"genre": ""
+	},
+	{
+		"title": "Neighbors",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "150157400",
+		"genre": ""
+	},
+	{
+		"title": "Ride Along",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "134938200",
+		"genre": ""
+	},
+	{
+		"title": "Lucy",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "126663600",
+		"genre": ""
+	},
+	{
+		"title": "Lone Survivor",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "124907273",
+		"genre": ""
+	},
+	{
+		"title": "Non-Stop",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "92168600",
+		"genre": ""
+	},
+	{
+		"title": "Dumb and Dumber To",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "84966865",
+		"genre": ""
+	},
+	{
+		"title": "The Purge: Anarchy",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "71962800",
+		"genre": ""
+	},
+	{
+		"title": "Unbroken",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "62528610",
+		"genre": ""
+	},
+	{
+		"title": "Dracula Untold",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "56280355",
+		"genre": ""
+	},
+	{
+		"title": "Ouija",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "50856010",
+		"genre": ""
+	},
+	{
+		"title": "The LEGO Movie",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "257760692",
+		"genre": ""
+	},
+	{
+		"title": "Godzilla (2014)",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "200676069",
+		"genre": ""
+	},
+	{
+		"title": "The Hobbit: The Battle of the Five Armies",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "189549326",
+		"genre": ""
+	},
+	{
+		"title": "300: Rise of An Empire",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "106580051",
+		"genre": ""
+	},
+	{
+		"title": "Edge of Tomorrow",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "100206256",
+		"genre": ""
+	},
+	{
+		"title": "Tammy",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "84525432",
+		"genre": ""
+	},
+	{
+		"title": "Annabelle",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "84273813",
+		"genre": ""
+	},
+	{
+		"title": "The Hobbit: The Desolation of Smaug",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "56824777",
+		"genre": ""
+	},
+	{
+		"title": "Horrible Bosses 2",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "51745425",
+		"genre": ""
+	},
+	{
+		"title": "If I Stay",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "50474843",
+		"genre": ""
+	},
+	{
+		"title": "Guardians of the Galaxy",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "332939602",
+		"genre": ""
+	},
+	{
+		"title": "Captain America: The Winter Soldier",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "259766572",
+		"genre": ""
+	},
+	{
+		"title": "Maleficent",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "241410378",
+		"genre": ""
+	},
+	{
+		"title": "Big Hero 6",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "204576654",
+		"genre": ""
+	},
+	{
+		"title": "Frozen",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "137645361",
+		"genre": ""
+	},
+	{
+		"title": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "65640655",
+		"genre": ""
+	},
+	{
+		"title": "Into the Woods",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "64062104",
+		"genre": ""
+	},
+	{
+		"title": "Planes: Fire & Rescue",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "59165787",
+		"genre": ""
+	},
+	{
+		"title": "The Hundred-Foot Journey",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "54240821",
+		"genre": ""
+	},
+	{
+		"title": "Muppets Most Wanted",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "51183113",
+		"genre": ""
+	},
 	{
 		"title": "The Martian",
 		"studio": "20th Century Fox",
-		"year": "2015",
+		"year": "2014",
 		"gross": "225345353",
-		"genre": "Fantasy/Science Fiction"
+		"genre": ""
 	},
-
 	{
 		"title": "Home (2015)",
-		"studio": "20th Century Fox",
-		"year": "2015",
+		"studio": "21st Century Fox",
+		"year": "2014",
 		"gross": "177397510",
-		"genre": "Fantasy/Science Fiction"
+		"genre": ""
 	},
-
 	{
-		"title": "Spectre",
-		"studio": "Columbia Pictures",
-		"year": "2015",
-		"gross": "197102585",
-		"genre": "Crime/Thriller"
+		"title": "Kingsman: The Secret Service",
+		"studio": "22nd Century Fox",
+		"year": "2014",
+		"gross": "128261724",
+		"genre": ""
 	},
-
 	{
-		"title": "Hotel Transylvania 2",
-		"studio": "Columbia Pictures",
-		"year": "2015",
-		"gross": "168471018",
-		"genre": "Fantasy/Action"
+		"title": "The Peanuts Movie",
+		"studio": "23rd Century Fox",
+		"year": "2014",
+		"gross": "128235584",
+		"genre": ""
 	},
-
+	{
+		"title": "Spy",
+		"studio": "24th Century Fox",
+		"year": "2014",
+		"gross": "110825712",
+		"genre": ""
+	},
+	{
+		"title": "Taken 3",
+		"studio": "25th Century Fox",
+		"year": "2014",
+		"gross": "89256424",
+		"genre": ""
+	},
+	{
+		"title": "Maze Runner: The Scorch Trials",
+		"studio": "26th Century Fox",
+		"year": "2014",
+		"gross": "81630702",
+		"genre": ""
+	},
+	{
+		"title": "Fantastic Four",
+		"studio": "27th Century Fox",
+		"year": "2014",
+		"gross": "56117548",
+		"genre": ""
+	},
+	{
+		"title": "Alvin and the Chipmunks: The Road Chip",
+		"studio": "28th Century Fox",
+		"year": "2014",
+		"gross": "55575427",
+		"genre": ""
+	},
+	{
+		"title": "Poltergeist (2015)",
+		"studio": "29th Century Fox",
+		"year": "2014",
+		"gross": "47425125",
+		"genre": ""
+	},
 	{
 		"title": "Mission: Impossible - Rogue Nation",
-		"studio": "Paramount Pictures",
-		"year": "2015",
+		"studio": "Paramount",
+		"year": "2014",
 		"gross": "195042377",
-		"genre": "Thriller/Action"
+		"genre": ""
 	},
-
 	{
 		"title": "The SpongeBob Movie: Sponge Out of Water",
-		"studio": "Paramount Pictures",
-		"year": "2015",
+		"studio": "Paramount",
+		"year": "2014",
 		"gross": "162994032",
-		"genre": "Fantasy/Adventure"
+		"genre": ""
 	},
-
 	{
-		"title": "Finding Dory",
-		"studio": "Walt Disney Pictures",
-		"year": "2016",
-		"gross": "486295561",
-		"genre": "Comedy"
+		"title": "Terminator: Genisys",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "89760956",
+		"genre": ""
 	},
-
 	{
-		"title": "Rogue One: A Star Wars Story",
-		"studio": "Walt Disney Pictures",
-		"year": "2016",
-		"gross": "408235850",
-		"genre": "Science Fiction"
+		"title": "Daddy's Home",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "64684278",
+		"genre": ""
 	},
-
 	{
-		"title": "Batman v Superman: Dawn of Justice",
-		"studio": "Warner Bros. Pictures",
-		"year": "2016",
-		"gross": "330360194",
-		"genre": "Science Fiction"
+		"title": "Selma",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "50872921",
+		"genre": ""
 	},
-
 	{
-		"title": "Suicide Squad",
-		"studio": "Warner Bros. Pictures",
-		"year": "2016",
-		"gross": "325100054",
-		"genre": "Science Fiction"
+		"title": "The Big Short",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "23995178",
+		"genre": ""
 	},
-
+	{
+		"title": "Project Almanac",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "22348241",
+		"genre": ""
+	},
+	{
+		"title": "Paranormal Activity: The Ghost Dimension",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "18300124",
+		"genre": ""
+	},
+	{
+		"title": "The Gambler",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "14800136",
+		"genre": ""
+	},
+	{
+		"title": "Hot Tub Time Machine 2",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "12314651",
+		"genre": ""
+	},
+	{
+		"title": "Spectre",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "197102585",
+		"genre": ""
+	},
+	{
+		"title": "Hotel Transylvania 2",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "168471018",
+		"genre": ""
+	},
+	{
+		"title": "Goosebumps",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "79132868",
+		"genre": ""
+	},
+	{
+		"title": "Pixels",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "78747585",
+		"genre": ""
+	},
+	{
+		"title": "Paul Blart: Mall Cop 2",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "71038190",
+		"genre": ""
+	},
+	{
+		"title": "War Room",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "67790117",
+		"genre": ""
+	},
+	{
+		"title": "The Wedding Ringer",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "64460211",
+		"genre": ""
+	},
+	{
+		"title": "The Perfect Guy",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "57027435",
+		"genre": ""
+	},
+	{
+		"title": "The Night Before",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "42884826",
+		"genre": ""
+	},
+	{
+		"title": "Chappie",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "31569268",
+		"genre": ""
+	},
+	{
+		"title": "Jurassic World",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "652270625",
+		"genre": ""
+	},
+	{
+		"title": "Furious 7",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "353007020",
+		"genre": ""
+	},
+	{
+		"title": "Minions",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "336045770",
+		"genre": ""
+	},
+	{
+		"title": "Pitch Perfect 2",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "184296230",
+		"genre": ""
+	},
+	{
+		"title": "Fifty Shades of Grey",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "166167230",
+		"genre": ""
+	},
+	{
+		"title": "Straight Outta Compton",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "161197785",
+		"genre": ""
+	},
+	{
+		"title": "Trainwreck",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "110212700",
+		"genre": ""
+	},
+	{
+		"title": "Ted 2",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "81476385",
+		"genre": ""
+	},
+	{
+		"title": "The Visit",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "65206105",
+		"genre": ""
+	},
+	{
+		"title": "Unbroken",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "53109285",
+		"genre": ""
+	},
+	{
+		"title": "American Sniper",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "348797073",
+		"genre": ""
+	},
+	{
+		"title": "San Andreas",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "155190832",
+		"genre": ""
+	},
+	{
+		"title": "Mad Max: Fury Road",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "153636354",
+		"genre": ""
+	},
+	{
+		"title": "Creed",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "99385165",
+		"genre": ""
+	},
+	{
+		"title": "Get Hard",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "90411453",
+		"genre": ""
+	},
+	{
+		"title": "The Intern",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "75574886",
+		"genre": ""
+	},
+	{
+		"title": "Magic Mike XXL",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "66013057",
+		"genre": ""
+	},
+	{
+		"title": "The Hobbit: The Battle of the Five Armies",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "65570462",
+		"genre": ""
+	},
+	{
+		"title": "Black Mass",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "62575678",
+		"genre": ""
+	},
+	{
+		"title": "Vacation",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "58884188",
+		"genre": ""
+	},
+	{
+		"title": "Star Wars: The Force Awakens",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "651967269",
+		"genre": ""
+	},
+	{
+		"title": "Avengers: Age of Ultron",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "459005868",
+		"genre": ""
+	},
+	{
+		"title": "Inside Out",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "356461711",
+		"genre": ""
+	},
+	{
+		"title": "Cinderella (2015)",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "201151353",
+		"genre": ""
+	},
+	{
+		"title": "Ant-Man",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "180202163",
+		"genre": ""
+	},
+	{
+		"title": "The Good Dinosaur",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "110716470",
+		"genre": ""
+	},
+	{
+		"title": "Tomorrowland",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "93436322",
+		"genre": ""
+	},
+	{
+		"title": "Bridge of Spies",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "70447776",
+		"genre": ""
+	},
+	{
+		"title": "Into the Woods",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "63940268",
+		"genre": ""
+	},
+	{
+		"title": "McFarland, USA",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "44482410",
+		"genre": ""
+	},
 	{
 		"title": "Deadpool",
 		"studio": "20th Century Fox",
-		"year": "2016",
+		"year": "2014",
 		"gross": "363070709",
-		"genre": "Science Fiction"
+		"genre": ""
 	},
-
 	{
 		"title": "The Revenant",
 		"studio": "20th Century Fox",
-		"year": "2016",
+		"year": "2014",
 		"gross": "182765375",
-		"genre": "Thriller"
+		"genre": ""
 	},
-
 	{
-		"title": "The Secret Life of Pets",
-		"studio": "Universal Pictures",
-		"year": "2016",
-		"gross": "368384330",
-		"genre": "Comedy"
+		"title": "X-Men: Apocalypse",
+		"studio": "20th Century Fox",
+		"year": "2014",
+		"gross": "155442489",
+		"genre": ""
 	},
-
 	{
-		"title": "Jason Bourne",
-		"studio": "Universal Pictures",
-		"year": "2016",
-		"gross": "162434410",
-		"genre": "Action"
+		"title": "Trolls",
+		"studio": "20th Century Fox",
+		"year": "2014",
+		"gross": "150130292",
+		"genre": ""
 	},
-
 	{
-		"title": "Ghostbusters",
-		"studio": "Columbia Pictures",
-		"year": "2016",
-		"gross": "128350574",
-		"genre": "Science Fiction"
+		"title": "Kung Fu Panda 3",
+		"studio": "20th Century Fox",
+		"year": "2014",
+		"gross": "143528619",
+		"genre": ""
 	},
-
 	{
-		"title": "The Angry Birds Movie",
-		"studio": "Columbia Pictures",
-		"year": "2016",
-		"gross": "107509366",
-		"genre": "Action"
+		"title": "Independence Day: Resurgence",
+		"studio": "20th Century Fox",
+		"year": "2014",
+		"gross": "103144286",
+		"genre": ""
 	},
-
+	{
+		"title": "Miss Peregrine's Home for Peculiar Children",
+		"studio": "20th Century Fox",
+		"year": "2014",
+		"gross": "86945137",
+		"genre": ""
+	},
+	{
+		"title": "Ice Age: Collision Course",
+		"studio": "20th Century Fox",
+		"year": "2014",
+		"gross": "64063008",
+		"genre": ""
+	},
+	{
+		"title": "Mike and Dave Need Wedding Dates",
+		"studio": "20th Century Fox",
+		"year": "2014",
+		"gross": "46009673",
+		"genre": ""
+	},
+	{
+		"title": "Assassin's Creed",
+		"studio": "20th Century Fox",
+		"year": "2014",
+		"gross": "36415167",
+		"genre": ""
+	},
 	{
 		"title": "Star Trek Beyond",
-		"studio": "Paramount Pictures",
-		"year": "2016",
+		"studio": "Paramount",
+		"year": "2014",
 		"gross": "158848340",
-		"genre": "Science Fiction"
+		"genre": ""
 	},
-
 	{
 		"title": "Arrival",
-		"studio": "Paramount Pictures",
-		"year": "2016",
+		"studio": "Paramount",
+		"year": "2014",
 		"gross": "91676099",
-		"genre": "Science Fiction"
+		"genre": ""
+	},
+	{
+		"title": "Daddy's Home",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "85672859",
+		"genre": ""
+	},
+	{
+		"title": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "82051601",
+		"genre": ""
+	},
+	{
+		"title": "10 Cloverfield Lane",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "72082998",
+		"genre": ""
+	},
+	{
+		"title": "Jack Reacher: Never Go Back",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "58546937",
+		"genre": ""
+	},
+	{
+		"title": "13 Hours: The Secret Soldiers of Benghazi",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "52853219",
+		"genre": ""
+	},
+	{
+		"title": "Office Christmas Party",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "49815176",
+		"genre": ""
+	},
+	{
+		"title": "The Big Short",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "46264692",
+		"genre": ""
+	},
+	{
+		"title": "Allied",
+		"studio": "Paramount",
+		"year": "2014",
+		"gross": "39541921",
+		"genre": ""
+	},
+	{
+		"title": "Ghostbusters (2016)",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "128350574",
+		"genre": ""
+	},
+	{
+		"title": "The Angry Birds Movie",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "107509366",
+		"genre": ""
+	},
+	{
+		"title": "Sausage Party",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "97685686",
+		"genre": ""
+	},
+	{
+		"title": "The Magnificent Seven (2016)",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "93420253",
+		"genre": ""
+	},
+	{
+		"title": "Don't Breathe",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "89217875",
+		"genre": ""
+	},
+	{
+		"title": "Miracles from Heaven",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "61705123",
+		"genre": ""
+	},
+	{
+		"title": "Passengers (2016)",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "55380209",
+		"genre": ""
+	},
+	{
+		"title": "The Shallows",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "55124043",
+		"genre": ""
+	},
+	{
+		"title": "Money Monster",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "41012075",
+		"genre": ""
+	},
+	{
+		"title": "Risen",
+		"studio": "Columbia",
+		"year": "2014",
+		"gross": "36880033",
+		"genre": ""
+	},
+	{
+		"title": "The Secret Life of Pets",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "368384330",
+		"genre": ""
+	},
+	{
+		"title": "Jason Bourne",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "162434410",
+		"genre": ""
+	},
+	{
+		"title": "Sing",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "152853995",
+		"genre": ""
+	},
+	{
+		"title": "Ride Along 2",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "91221830",
+		"genre": ""
+	},
+	{
+		"title": "The Purge: Election Year",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "79213375",
+		"genre": ""
+	},
+	{
+		"title": "The Girl on the Train (2016)",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "75395035",
+		"genre": ""
+	},
+	{
+		"title": "The Boss",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "63285885",
+		"genre": ""
+	},
+	{
+		"title": "My Big Fat Greek Wedding 2",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "59689605",
+		"genre": ""
+	},
+	{
+		"title": "Neighbors 2: Sorority Rising",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "55455765",
+		"genre": ""
+	},
+	{
+		"title": "The Huntsman: Winter's War",
+		"studio": "Universal",
+		"year": "2014",
+		"gross": "48390190",
+		"genre": ""
+	},
+	{
+		"title": "Batman v Superman: Dawn of Justice",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "330360194",
+		"genre": ""
+	},
+	{
+		"title": "Suicide Squad",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "325100054",
+		"genre": ""
+	},
+	{
+		"title": "Fantastic Beasts and Where To Find Them",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "222675573",
+		"genre": ""
+	},
+	{
+		"title": "Central Intelligence",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "127440871",
+		"genre": ""
+	},
+	{
+		"title": "The Legend of Tarzan",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "126643061",
+		"genre": ""
+	},
+	{
+		"title": "Sully",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "124976335",
+		"genre": ""
+	},
+	{
+		"title": "The Conjuring 2",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "102470008",
+		"genre": ""
+	},
+	{
+		"title": "The Accountant",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "85856696",
+		"genre": ""
+	},
+	{
+		"title": "Storks",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "72414850",
+		"genre": ""
+	},
+	{
+		"title": "Lights Out",
+		"studio": "Warner Bros",
+		"year": "2014",
+		"gross": "67268835",
+		"genre": ""
+	},
+	{
+		"title": "Finding Dory",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "486295561",
+		"genre": ""
+	},
+	{
+		"title": "Rogue One: A Star Wars Story",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "408235850",
+		"genre": ""
+	},
+	{
+		"title": "Captain America: Civil War",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "408084349",
+		"genre": ""
+	},
+	{
+		"title": "The Jungle Book (2016)",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "364001123",
+		"genre": ""
+	},
+	{
+		"title": "Zootopia",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "341268248",
+		"genre": ""
+	},
+	{
+		"title": "Star Wars: The Force Awakens",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "284694956",
+		"genre": ""
+	},
+	{
+		"title": "Doctor Strange",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "229876337",
+		"genre": ""
+	},
+	{
+		"title": "Moana",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "206477478",
+		"genre": ""
+	},
+	{
+		"title": "Alice Through the Looking Glass",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "77041381",
+		"genre": ""
+	},
+	{
+		"title": "Pete's Dragon (2016)",
+		"studio": "Disney",
+		"year": "2014",
+		"gross": "76233151",
+		"genre": ""
 	}
 ]
