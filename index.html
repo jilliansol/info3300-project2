@@ -1,46 +1,63 @@
 <html>
+
 <head>
-<title>INFO 3300 - Data-driven Web Applications</title>
+<title>Project 2</title>
 <link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+<link href="stylesheet.css" rel="stylesheet">
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="http://d3js.org/topojson.v2.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
-<style>
-body { font-family: 'Asar', Calibri, sans-serif; }
-.arc path { stroke: #fff; }
-svg { border: solid #ccc 1px; }
-button {background-color: white; color: black}
-</style>
 </head>
+
 <body>
-<svg width = "500" height = "500"></svg>
-<svg id="svg2" width="500" height="500"></svg>
+
+<div id = "pg_top">
+  <div id = "banner">
+    <h1>Movies and Market Shares</h1>
+  </div>
+</div>
+
+<div id = "container">
 
 <div id="differentyear">
-    <h2>Select a Year:</h2><br>
-      <div id="differentyears">
-      <ul>
-        <button id="2016" name="2016" class="selected" onclick = which_year(this,2016)>2016</button>
-        <button id="2015" name="2015" class="" onclick = which_year(this,2015)>2015</button> 
-        <button id="2014" name="2014" class="" onclick = which_year(this,2014)>2014</button>
-      </ul>           
-    </div> 
-</div> 
-<div id="details" style="visibility: hidden;">
-          <span id="year" style="font-weight: bold; font-size: 25pt"></span><br/>
-          <span id="gross" style="font-weight: bold; font-size: 25pt"></span><br/>
+  <h2>Select a Year:</h2>
+    <ul>
+      <button id="2016" name="2016" class="selected" onclick = which_year(this,2016)>2016</button>
+      <button id="2015" name="2015" class="" onclick = which_year(this,2015)>2015</button>
+      <button id="2014" name="2014" class="" onclick = which_year(this,2014)>2014</button>
+    </ul>
+</div>
+
+<!-- <div id="details" style="visibility: hidden;">
+  <span id="year" style="font-weight: bold; font-size: 25pt"></span><br/>
+  <span id="gross" style="font-weight: bold; font-size: 25pt"></span><br/>
+</div> -->
+
+<svg width = "600" height = "600"></svg>
+<svg id="svg2" width="600" height="600"></svg>
 </div>
 <script>
+var movie, year, studio;
+d3.json("movies.json",function(error,data){
+    movie=data
 
+var year = d3.nest().key(function(d){
+    return d.year;})
+    .entries(movie);
+
+var studio2014 = d3.nest().key(function(d){
+    return d.studio;})
+    .entries(year[0].values);
+});
 
 function data_by_year(year){
-var width = 500,
-    height = 500,
+var width = 600,
+    height = 600,
     radius = Math.min(width, height) / 2;
 
 var color = d3.scaleOrdinal()
-    .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+    .range(["rgb(186,47,40)", "rgb(255,242,197)", "#6A8D73", "rgb(189,234,229)", "#E07A5F", "#CF7D8B"]);
 
 var arc = d3.arc()
     .outerRadius(radius - 10)
@@ -65,7 +82,7 @@ d3.json("market.json", function(error, data) {
         .enter().append("g")
         .attr("class", "arc")
         .on("click", function(d) {
-            matchStudio(d.data.studio, year);
+            matchStudio(movie, d.data.studio, year);
         });
 
     g.append("path")
@@ -82,22 +99,48 @@ d3.json("market.json", function(error, data) {
 });
 }
 
-//function to find movies that match user-picked studio
-var h = 30;
-function matchStudio(studio, year) {
-  d3.json("movies.json", function(error, data) {
-    nodes = data;
+// //function to find movies that match user-picked studio
+// var h = 30;
+// function matchStudio(studio, year) {
+//   d3.json("movies.json", function(error, data) {
+//     nodes = data;
+//     for (i=0; i<nodes.length; i++){
+//       if (studio == nodes[i].studio && year == nodes[i].year){
+//         console.log(nodes[i].title);
+//         d3.select("#svg2").append("text")
+//           .attr("x", 20)
+//           .attr("y", h)
+//           .text(nodes[i].title)
+//           h=h+30;
+//       }
+//     }
+//   });
+// }
+
+//function to find and print movies that match user-picked studio
+function matchStudio(nodes, studio, year) {
+d3.selectAll(".svg2content").remove();
+    var g = 50;
+    var h = 30;
+    var j =0;
     for (i=0; i<nodes.length; i++){
-      if (studio == nodes[i].studio && year == nodes[i].year){
-        console.log(nodes[i].title);
+        console.log("year",year);
+        console.log("nodes[i]",nodes[i].year);
+      if (studio == nodes[i].studio && year == nodes[i].year) {
         d3.select("#svg2").append("text")
-          .attr("x", 20)
-          .attr("y", h)
-          .text(nodes[i].title);
-          h=h+30;
-      }
+            .attr("x", 20)
+            .attr("y", 30+h)
+            .attr("class","svg2content")
+            .style("font-size", g)
+            .style("text-align","center")
+            .text(nodes[i].title);
+            g=50-i*5;
+            if (g<=0){
+                g = 10;
+            };
+            h=h+30;
+        }
     }
-  });
 }
 
 
@@ -106,15 +149,15 @@ var buttonClicked = null;
 function which_year(element, year){
   data_by_year(year);
   if (buttonClicked != null) {
-        buttonClicked.style.background = "white";
-        buttonClicked.style.color = "black";
-    }
-    buttonClicked = element;
-    buttonClicked.style.background = "red";
-    buttonClicked.style.color = "white";
-
+    buttonClicked.style.background = "white";
+    buttonClicked.style.color = "black";
+  }
+  buttonClicked = element;
+  buttonClicked.style.background = "#3891A6";
+  buttonClicked.style.color = "white";
 }
 data_by_year(2016);
+console.log(buttonClicked);
 
 </script>
 
