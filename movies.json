@@ -214,16 +214,17 @@
   },
 
 // 2014 - 20th Century Fox
-{'title':'X-Men: Days of Future Past','studio':'20th Century Fox','year': '2014','gross':'233921534','genre':''},
-{'title':'Dawn of the Planet of the Apes','studio':'20th Century Fox','year': '2014','gross':'208545589','genre':''},
-{'title':'How to Train Your Dragon 2','studio':'20th Century Fox','year': '2014','gross':'177002924','genre':''},
-{'title':'Gone Girl','studio':'20th Century Fox','year': '2014','gross':'166197583','genre':''},
-{'title':'Rio 2','studio':'20th Century Fox','year': '2014','gross':'131538435','genre':''},
-{'title':'The Fault in our Stars','studio':'20th Century Fox','year': '2014','gross':'124872350','genre':''},
-{'title':'Mr. Peabody & Sherman','studio':'20th Century Fox','year': '2014','gross':'111506430','genre':''},
-{'title':'The Maze Runner','studio':'20th Century Fox','year': '2014','gross':'102104191','genre':''},
-{'title':'The Other Woman (2014)','studio':'20th Century Fox','year': '2014','gross':'83911193','genre':''},
-{'title':"Let's Be Cops",'studio':'20th Century Fox','year': '2014','gross':'82390774','genre':''},
+{"title":"X-Men: Days of Future Past","studio":"20th Century Fox","year": "2014","gross":"233921534","genre":""},
+{"title":"Dawn of the Planet of the Apes","studio":"20th Century Fox","year": "2014","gross":"208545589","genre":""},
+{"title":"How to Train Your Dragon 2","studio":"20th Century Fox","year": "2014","gross":"177002924","genre":""},
+{"title":"Gone Girl","studio":"20th Century Fox","year": "2014","gross":"166197583","genre":""},
+{"title":"Rio 2","studio":"20th Century Fox","year": "2014","gross":"131538435","genre":""},
+{"title":"The Fault in our Stars","studio":"20th Century Fox","year": "2014","gross":"124872350","genre":""},
+{"title":"Mr. Peabody & Sherman","studio":"20th Century Fox","year": "2014","gross":"111506430","genre":""},
+{"title":"The Maze Runner","studio":"20th Century Fox","year": "2014","gross":"102104191","genre":""},
+{"title":"The Other Woman (2014)","studio":"20th Century Fox","year": "2014","gross":"83911193","genre":""},
+{"title":"Let's Be Cops","studio":"20th Century Fox","year": "2014","gross":"82390774","genre":""},
+
 
 
 
