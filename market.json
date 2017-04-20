@@ -1,85 +1,85 @@
 [{
-		"year": "2016",
-		"details": [{
-				"studio": "Columbia",
-				"market_share": 8.07
-			},
-			{
-				"studio": "Paramount",
-				"market_share": 7.50
-			},
-			{
-				"studio": "Disney",
-				"market_share": 26.09
-			},
-			{
-				"studio": "Warner Bros",
-				"market_share": 16.86
-			},
-			{
-				"studio": "20th Century Fox",
-				"market_share": 12.92
-			},
-			{
-				"studio": "Universal",
-				"market_share": 12.50
-			}
-		]
-	},
-	{
-		"year": "2015",
-		"details": [{
-				"studio": "Columbia",
-				"market_share": 8.5
-			},
-			{
-				"studio": "Paramount",
-				"market_share": 6.2
-			},
-			{
-				"studio": "Disney",
-				"market_share": 20.7
-			},
-			{
-				"studio": "Warner Bros",
-				"market_share": 14.0
-			},
-			{
-				"studio": "20th Century Fox",
-				"market_share": 12.7
-			},
-			{
-				"studio": "Universal",
-				"market_share": 21.6
-			}
-		]
-	},
-	{
-		"year": "2014",
-		"details": [{
-				"studio": "Columbia",
-				"market_share": 11.6
-			},
-			{
-				"studio": "Paramount",
-				"market_share": 9.7
-			},
-			{
-				"studio": "Disney",
-				"market_share": 14.9
-			},
-			{
-				"studio": "Warner Bros",
-				"market_share": 14.4
-			},
-			{
-				"studio": "20th Century Fox",
-				"market_share": 16.5
-			},
-			{
-				"studio": "Universal",
-				"market_share": 10.3
-			}
-		]
-	}
+	"year": "2016",
+	"details": [{
+			"studio": "Columbia",
+			"market_share": 8.07
+		},
+		{
+			"studio": "Paramount",
+			"market_share": 7.50
+		},
+		{
+			"studio": "Disney",
+			"market_share": 26.09
+		},
+		{
+			"studio": "Warner Bros",
+			"market_share": 16.86
+		},
+		{
+			"studio": "20th Century Fox",
+			"market_share": 12.92
+		},
+		{
+			"studio": "Universal",
+			"market_share": 12.50
+		}
+	]
+},
+{
+	"year": "2015",
+	"details": [{
+			"studio": "Columbia",
+			"market_share": 8.5
+		},
+		{
+			"studio": "Paramount",
+			"market_share": 6.2
+		},
+		{
+			"studio": "Disney",
+			"market_share": 20.7
+		},
+		{
+			"studio": "Warner Bros",
+			"market_share": 14.0
+		},
+		{
+			"studio": "20th Century Fox",
+			"market_share": 12.7
+		},
+		{
+			"studio": "Universal",
+			"market_share": 21.6
+		}
+	]
+},
+{
+	"year": "2014",
+	"details": [{
+			"studio": "Columbia",
+			"market_share": 11.6
+		},
+		{
+			"studio": "Paramount",
+			"market_share": 9.7
+		},
+		{
+			"studio": "Disney",
+			"market_share": 14.9
+		},
+		{
+			"studio": "Warner Bros",
+			"market_share": 14.4
+		},
+		{
+			"studio": "20th Century Fox",
+			"market_share": 16.5
+		},
+		{
+			"studio": "Universal",
+			"market_share": 10.3
+		}
+	]
+}
 ]
