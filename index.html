@@ -2,6 +2,7 @@
 
 <head>
 <title>Project 2</title>
+<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
 <link href="stylesheet.css" rel="stylesheet">
@@ -15,6 +16,7 @@
 <div id = "pg_top">
   <div id = "banner">
     <h1>Movies and Market Shares</h1>
+      <img src="popcorn.svg"/>
   </div>
 </div>
 
@@ -28,15 +30,11 @@
       <button id="2014" name="2014" class="" onclick = which_year(this,2014)>2014</button>
     </ul>
 </div>
+
 <div id="details" style="visibility: hidden;">
           <span id="year" style="font-weight: bold; font-size: 25pt"></span><br/>
           <span id="gross" style="font-weight: bold; font-size: 25pt"></span><br/>
 </div>
-
-<!-- <div id="details" style="visibility: hidden;">
-  <span id="year" style="font-weight: bold; font-size: 25pt"></span><br/>
-  <span id="gross" style="font-weight: bold; font-size: 25pt"></span><br/>
-</div> -->
 
 <svg width = "600" height = "600"></svg>
 <svg id="svg2" width="600" height="600"></svg>
@@ -45,17 +43,19 @@
 var movie, year, studio;
 d3.json("movies.json",function(error,data){
     movie=data
-var year = d3.nest().key(function(d){
-    return d.year;})
-    .entries(movie);
-var studio2014 = d3.nest().key(function(d){
-    return d.studio;})
-    .entries(year[0].values);
+    var year = d3.nest().key(function(d){
+        return d.year;})
+        .entries(movie);
+//    console.log(year);
 });
+
+
+    
 function data_by_year(year){
 var width = 600,
     height = 600,
     radius = Math.min(width, height) / 2;
+
 var color = d3.scaleOrdinal()
     .range(["#A1E887", "#80B192", "#6A8D92", "#4B4E6D", "#493548", "#CCDAD1"]);
 var arc = d3.arc()
@@ -70,7 +70,9 @@ var svg = d3.select("svg").append("svg")
     .append("g")
     .attr("id", "container")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
-d3.json("markets.json", function(error, data) {
+
+
+d3.json("market.json", function(error, data) {
   node = data;
   for (i=0; i<node.length; i++){
     if(year == node[i].year){
@@ -89,41 +91,44 @@ d3.json("markets.json", function(error, data) {
         .attr("transform", function (d) { return "translate(" + arc.centroid(d) + ")"; })
         .attr("dy", ".35em")
         .style("text-anchor", "middle")
-        .text(function (d) { return d.data.studio; });
+        .text(function (d) { return d.data.studio; })
+//        .text(function (d) { return d.data.market_share});
     }
   }
 });
 }
 
+//function to find and print movies that match user-picked studio
+    
 var nod;
 function matchStudio(nodes, studio, year) {
 d3.selectAll(".svg2content").remove();
-    var g = 50;
-    var h = 30;
-    var j =0;
+//    var g = 50;
+    var h = 0;
+    var fontTotal = 5000;
     for (i=0; i<nodes.length; i++){
+//        console.log("year",year);
+//        console.log("nodes[i]",nodes[i].year);
+//        console.log("nodadfa",nodes[i].grossPercent);
       if (studio == nodes[i].studio && year == nodes[i].year) {
-          nod = nodes[i];
+        nod = nodes[i];
         d3.select("#svg2").append("text")
             .attr("x", 20)
-            .attr("y", 30+h)
+            .attr("y", 70+h)
             .attr("class","svg2content")
             .attr("id", "ID"+i)
-            .style("font-size", g)
-            .style("text-align","center")
-            .text(nodes[i].title);
-        d3.select("#ID"+i).on("mouseover", function(i){mouseover(nodes[i])}.bind(this, i));
-        d3.select("#ID"+i).on("mouseleave", mouseleave);
-            g=50-i*5;
-            if (g<=0){
-                g = 10;
-            };
-            h=h+30;
+            .style("line-height","400px")
+            .style("border","2px solid red")
+            .style("word-wrap","break-word")
+            .style("width","300px")
+            .style("font-size", Math.sqrt(fontTotal*nodes[i].grossPercent))
+            .text(nodes[i].title)
+            d3.select("#ID"+i).on("mouseover", function(i){mouseover(nodes[i])}.bind(this, i));
+            d3.select("#ID"+i).on("mouseleave", mouseleave);
+            h=h+45;
         }
     }
 }
-
-           
 
 function mouseover(d) {
     console.log(d);
@@ -133,6 +138,7 @@ function mouseover(d) {
     var year = d.year;
     var yearString = "Year: " + year;
     
+    if(d.title){
     d3.select("#gross")
       .text(grossString);
     
@@ -141,14 +147,15 @@ function mouseover(d) {
 
     d3.select("#details")
       .style("visibility", "");
+    }
 
-    d3.selectAll("path")
-      .style("opacity", 0.25);
+//    d3.selectAll("path")
+//      .style("opacity", 0.25);
   }
 
   function mouseleave(d) {
 
-    d3.selectAll("path").on("mouseover", null);
+    d3.selectAll("#svg2 path").on("mouseover", null);
 
     d3.selectAll("path")
       .transition()
@@ -162,10 +169,12 @@ function mouseover(d) {
       .style("visibility", "hidden");
   }
 
+    
 var buttonClicked = null;
 function which_year(element, year){
   data_by_year(year);
   if (buttonClicked != null) {
+    d3.selectAll(".svg2content").remove();
     buttonClicked.style.background = "white";
     buttonClicked.style.color = "black";
   }
@@ -175,11 +184,7 @@ function which_year(element, year){
 }
 data_by_year(2016);
 console.log(buttonClicked);
-
-
 </script>
-
 
 </body>
 </html>
-
