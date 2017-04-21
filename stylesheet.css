@@ -4,17 +4,14 @@ font-family: 'Francois One', sans-serif;
 .arc path {
   stroke: #fff;
 }
-svg {
-/*  border: solid #ccc 1px;*/
-}
 button {
-    background-color: white;
-    color: black; 
-    width:100;
-    height:50;
-    font-size: 30px;
-    border-radius: 20px;  
-    font-size: 30px;
+  background-color: white;
+  color: black;
+  width:100;
+  height:50;
+  font-size: 30px;
+  border-radius: 20px;
+  font-size: 30px;
 }
 #container {
   margin-top: 100px;
@@ -33,50 +30,37 @@ li {
   top: 0px;
   right: 0;
   left: 0;
-    display:inline-block
-    
+  display:inline-block
 }
 #banner {
-/*  max-width: 960px;*/
   color: #ffffff;
   background-color: #000000;
-
 }
 h1 {
   text-align: center;
-    display:inline-block;
-font-family: 'Francois One', sans-serif;
+  display:inline-block;
+  font-family: 'Francois One', sans-serif;
 }
 .studioText {
   color: gray;
-/*  text-shadow: 2px 2px 3px #FFFAC1;*/
 }
-
 text.svg2content{
     width: 100%;
     border: 2px solid red;
     overflow:auto;
 }
-
 body{
     overflow-wrap: break-word;
 }
-
-/*
-svg path:hover{
-    opacity: 0.5;
-}
-*/
-
-img{
+img {
     width: 50px;
     display:inline-block;
-    
 }
-
 #details{
     width: 100%;
     display:inline-block;
     height: 8em;
 }
-
+#description {
+  font-size: 20px;
+}
