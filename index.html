@@ -96,6 +96,12 @@ d3.json("market.json", function(error, data) {
         .attr("dy", ".35em")
         .style("text-anchor", "middle")
         .text(function (d) { return d.data.studio; })
+    g.append("text")
+        .attr("class", "studioPercent")
+        .attr("transform", function (d) { return "translate(" + arc.centroid(d) + ")"; })
+        .attr("dy", "1.55em")
+        .style("text-anchor", "middle")
+        .text(function (d) { return d.data.market_share; });
     }
   }
 });
