@@ -7,7 +7,7 @@
 		"grossPercent": 0.16
 	},
 	{
-		"title": "Dawn of the Planet of the Apes",
+		"title": "Planet of the Apes",
 		"studio": "20th Century Fox",
 		"year": 2014,
 		"gross": "208545589",
@@ -79,166 +79,6 @@
 		"grossPercent": 0.06
 	},
 	{
-		"title": "The Amazing Spider-Man 2",
-		"studio": "Columbia",
-		"year": 2014,
-		"gross": "202853933",
-		"genre": "",
-		"grossPercent": 0.14
-	},
-	{
-		"title": "22 Jump Street",
-		"studio": "Columbia",
-		"year": 2014,
-		"gross": "191719337",
-		"genre": "",
-		"grossPercent": 0.13
-	},
-	{
-		"title": "The Equalizer",
-		"studio": "Columbia",
-		"year": 2014,
-		"gross": "101285438",
-		"genre": "",
-		"grossPercent": 0.07
-	},
-	{
-		"title": "Heaven is for Real",
-		"studio": "Columbia",
-		"year": 2014,
-		"gross": "91443253",
-		"genre": "",
-		"grossPercent": 0.06
-	},
-	{
-		"title": "Fury",
-		"studio": "Columbia",
-		"year": 2014,
-		"gross": "85244339",
-		"genre": "",
-		"grossPercent": 0.06
-	},
-	{
-		"title": "American Hustle",
-		"studio": "Columbia",
-		"year": 2014,
-		"gross": "82599283",
-		"genre": "",
-		"grossPercent": 0.06
-	},
-	{
-		"title": "The Monuments Men",
-		"studio": "Columbia",
-		"year": 2014,
-		"gross": "78031620",
-		"genre": "",
-		"grossPercent": 0.05
-	},
-	{
-		"title": "Think Like a Man Too",
-		"studio": "Columbia",
-		"year": 2014,
-		"gross": "65182182",
-		"genre": "",
-		"grossPercent": 0.04
-	},
-	{
-		"title": "RoboCop",
-		"studio": "Columbia",
-		"year": 2014,
-		"gross": "58607007",
-		"genre": "",
-		"grossPercent": 0.04
-	},
-	{
-		"title": "Annie",
-		"studio": "Columbia",
-		"year": 2014,
-		"gross": "56951920",
-		"genre": "",
-		"grossPercent": 0.04
-	},
-	{
-		"title": "Guardians of the Galaxy",
-		"studio": "Disney",
-		"year": 2014,
-		"gross": "332939602",
-		"genre": "",
-		"grossPercent": 0.28
-	},
-	{
-		"title": "Captain America",
-		"studio": "Disney",
-		"year": 2014,
-		"gross": "259766572",
-		"genre": "",
-		"grossPercent": 0.22
-	},
-	{
-		"title": "Maleficent",
-		"studio": "Disney",
-		"year": 2014,
-		"gross": "241410378",
-		"genre": "",
-		"grossPercent": 0.2
-	},
-	{
-		"title": "Big Hero 6",
-		"studio": "Disney",
-		"year": 2014,
-		"gross": "204576654",
-		"genre": "",
-		"grossPercent": 0.17
-	},
-	{
-		"title": "Frozen",
-		"studio": "Disney",
-		"year": 2014,
-		"gross": "137645361",
-		"genre": "",
-		"grossPercent": 0.12
-	},
-	{
-		"title": "Alexander and the Very Bad Day",
-		"studio": "Disney",
-		"year": 2014,
-		"gross": "65640655",
-		"genre": "",
-		"grossPercent": 0.06
-	},
-	{
-		"title": "Into the Woods",
-		"studio": "Disney",
-		"year": 2014,
-		"gross": "64062104",
-		"genre": "",
-		"grossPercent": 0.05
-	},
-	{
-		"title": "Planes: Fire & Rescue",
-		"studio": "Disney",
-		"year": 2014,
-		"gross": "59165787",
-		"genre": "",
-		"grossPercent": 0.05
-	},
-	{
-		"title": "The Hundred-Foot Journey",
-		"studio": "Disney",
-		"year": 2014,
-		"gross": "54240821",
-		"genre": "",
-		"grossPercent": 0.05
-	},
-	{
-		"title": "Muppets Most Wanted",
-		"studio": "Disney",
-		"year": 2014,
-		"gross": "51183113",
-		"genre": "",
-		"grossPercent": 0.04
-	},
-	{
 		"title": "Transformers",
 		"studio": "Paramount",
 		"year": 2014,
@@ -276,7 +116,7 @@
 		"year": 2014,
 		"gross": "75451759",
 		"genre": "",
-		"grossPercent": 0.07
+		"grossPercent": 0.08
 	},
 	{
 		"title": "Hercules",
@@ -287,7 +127,7 @@
 		"grossPercent": 0.07
 	},
 	{
-		"title": "Jack Ryan: Shadow Recruit",
+		"title": "Jack Ryan",
 		"studio": "Paramount",
 		"year": 2014,
 		"gross": "50577412",
@@ -319,12 +159,92 @@
 		"grossPercent": 0.02
 	},
 	{
+		"title": "The Amazing Spider-Man 2",
+		"studio": "Columbia",
+		"year": 2014,
+		"gross": "202853933",
+		"genre": "",
+		"grossPercent": 0.2
+	},
+	{
+		"title": "22 Jump Street",
+		"studio": "Columbia",
+		"year": 2014,
+		"gross": "191719337",
+		"genre": "",
+		"grossPercent": 0.19
+	},
+	{
+		"title": "The Equalizer",
+		"studio": "Columbia",
+		"year": 2014,
+		"gross": "101285438",
+		"genre": "",
+		"grossPercent": 0.1
+	},
+	{
+		"title": "Heaven is for Real",
+		"studio": "Columbia",
+		"year": 2014,
+		"gross": "91443253",
+		"genre": "",
+		"grossPercent": 0.09
+	},
+	{
+		"title": "Fury",
+		"studio": "Columbia",
+		"year": 2014,
+		"gross": "85244339",
+		"genre": "",
+		"grossPercent": 0.08
+	},
+	{
+		"title": "American Hustle",
+		"studio": "Columbia",
+		"year": 2014,
+		"gross": "82599283",
+		"genre": "",
+		"grossPercent": 0.08
+	},
+	{
+		"title": "The Monuments Men",
+		"studio": "Columbia",
+		"year": 2014,
+		"gross": "78031620",
+		"genre": "",
+		"grossPercent": 0.08
+	},
+	{
+		"title": "Think Like a Man Too",
+		"studio": "Columbia",
+		"year": 2014,
+		"gross": "65182182",
+		"genre": "",
+		"grossPercent": 0.06
+	},
+	{
+		"title": "RoboCop",
+		"studio": "Columbia",
+		"year": 2014,
+		"gross": "58607007",
+		"genre": "",
+		"grossPercent": 0.06
+	},
+	{
+		"title": "Annie",
+		"studio": "Columbia",
+		"year": 2014,
+		"gross": "56951920",
+		"genre": "",
+		"grossPercent": 0.06
+	},
+	{
 		"title": "Neighbors",
 		"studio": "Universal",
 		"year": 2014,
 		"gross": "150157400",
 		"genre": "",
-		"grossPercent": 0.15
+		"grossPercent": 0.16
 	},
 	{
 		"title": "Ride Along",
@@ -332,7 +252,7 @@
 		"year": 2014,
 		"gross": "134938200",
 		"genre": "",
-		"grossPercent": 0.13
+		"grossPercent": 0.14
 	},
 	{
 		"title": "Lucy",
@@ -348,7 +268,7 @@
 		"year": 2014,
 		"gross": "124907273",
 		"genre": "",
-		"grossPercent": 0.12
+		"grossPercent": 0.13
 	},
 	{
 		"title": "Non-Stop",
@@ -356,7 +276,7 @@
 		"year": 2014,
 		"gross": "92168600",
 		"genre": "",
-		"grossPercent": 0.09
+		"grossPercent": 0.1
 	},
 	{
 		"title": "Dumb and Dumber To",
@@ -364,15 +284,15 @@
 		"year": 2014,
 		"gross": "84966865",
 		"genre": "",
-		"grossPercent": 0.08
+		"grossPercent": 0.09
 	},
 	{
-		"title": "The Purge: Anarchy",
+		"title": "The Purge",
 		"studio": "Universal",
 		"year": 2014,
 		"gross": "71962800",
 		"genre": "",
-		"grossPercent": 0.07
+		"grossPercent": 0.08
 	},
 	{
 		"title": "Unbroken",
@@ -380,7 +300,7 @@
 		"year": 2014,
 		"gross": "62528610",
 		"genre": "",
-		"grossPercent": 0.06
+		"grossPercent": 0.07
 	},
 	{
 		"title": "Dracula Untold",
@@ -404,7 +324,7 @@
 		"year": 2014,
 		"gross": "257760692",
 		"genre": "",
-		"grossPercent": 0.27
+		"grossPercent": 0.22
 	},
 	{
 		"title": "Godzilla",
@@ -412,23 +332,23 @@
 		"year": 2014,
 		"gross": "200676069",
 		"genre": "",
-		"grossPercent": 0.21
+		"grossPercent": 0.17
 	},
 	{
-		"title": "The Hobbit",
+		"title": "The Hobbit 2",
 		"studio": "Warner Bros",
 		"year": 2014,
 		"gross": "189549326",
 		"genre": "",
-		"grossPercent": 0.2
+		"grossPercent": 0.16
 	},
 	{
-		"title": "300: Rise of An Empire",
+		"title": "300",
 		"studio": "Warner Bros",
 		"year": 2014,
 		"gross": "106580051",
 		"genre": "",
-		"grossPercent": 0.11
+		"grossPercent": 0.09
 	},
 	{
 		"title": "Edge of Tomorrow",
@@ -436,7 +356,7 @@
 		"year": 2014,
 		"gross": "100206256",
 		"genre": "",
-		"grossPercent": 0.1
+		"grossPercent": 0.08
 	},
 	{
 		"title": "Tammy",
@@ -444,7 +364,7 @@
 		"year": 2014,
 		"gross": "84525432",
 		"genre": "",
-		"grossPercent": 0.09
+		"grossPercent": 0.07
 	},
 	{
 		"title": "Annabelle",
@@ -452,7 +372,7 @@
 		"year": 2014,
 		"gross": "84273813",
 		"genre": "",
-		"grossPercent": 0.09
+		"grossPercent": 0.07
 	},
 	{
 		"title": "The Hobbit",
@@ -460,7 +380,7 @@
 		"year": 2014,
 		"gross": "56824777",
 		"genre": "",
-		"grossPercent": 0.06
+		"grossPercent": 0.05
 	},
 	{
 		"title": "Horrible Bosses 2",
@@ -468,7 +388,7 @@
 		"year": 2014,
 		"gross": "51745425",
 		"genre": "",
-		"grossPercent": 0.05
+		"grossPercent": 0.04
 	},
 	{
 		"title": "If I Stay",
@@ -476,7 +396,87 @@
 		"year": 2014,
 		"gross": "50474843",
 		"genre": "",
-		"grossPercent": 0.05
+		"grossPercent": 0.04
+	},
+	{
+		"title": "Guardians of the Galaxy",
+		"studio": "Disney",
+		"year": 2014,
+		"gross": "332939602",
+		"genre": "",
+		"grossPercent": 0.23
+	},
+	{
+		"title": "Captain America",
+		"studio": "Disney",
+		"year": 2014,
+		"gross": "259766572",
+		"genre": "",
+		"grossPercent": 0.18
+	},
+	{
+		"title": "Maleficent",
+		"studio": "Disney",
+		"year": 2014,
+		"gross": "241410378",
+		"genre": "",
+		"grossPercent": 0.16
+	},
+	{
+		"title": "Big Hero 6",
+		"studio": "Disney",
+		"year": 2014,
+		"gross": "204576654",
+		"genre": "",
+		"grossPercent": 0.14
+	},
+	{
+		"title": "Frozen",
+		"studio": "Disney",
+		"year": 2014,
+		"gross": "137645361",
+		"genre": "",
+		"grossPercent": 0.09
+	},
+	{
+		"title": "Alexander and the Very Bad Day",
+		"studio": "Disney",
+		"year": 2014,
+		"gross": "65640655",
+		"genre": "",
+		"grossPercent": 0.04
+	},
+	{
+		"title": "Into the Woods",
+		"studio": "Disney",
+		"year": 2014,
+		"gross": "64062104",
+		"genre": "",
+		"grossPercent": 0.04
+	},
+	{
+		"title": "Planes: Fire & Rescue",
+		"studio": "Disney",
+		"year": 2014,
+		"gross": "59165787",
+		"genre": "",
+		"grossPercent": 0.04
+	},
+	{
+		"title": "The Hundred-Foot Journey",
+		"studio": "Disney",
+		"year": 2014,
+		"gross": "54240821",
+		"genre": "",
+		"grossPercent": 0.04
+	},
+	{
+		"title": "Muppets Most Wanted",
+		"studio": "Disney",
+		"year": 2014,
+		"gross": "51183113",
+		"genre": "",
+		"grossPercent": 0.03
 	},
 	{
 		"title": "The Martian",
@@ -527,7 +527,7 @@
 		"grossPercent": 0.08
 	},
 	{
-		"title": "Maze Runner: The Scorch Trials",
+		"title": "Maze Runner",
 		"studio": "20th Century Fox",
 		"year": 2015,
 		"gross": "81630702",
@@ -559,172 +559,12 @@
 		"grossPercent": 0.04
 	},
 	{
-		"title": "Spectre",
-		"studio": "Columbia",
-		"year": 2015,
-		"gross": "197102585",
-		"genre": "",
-		"grossPercent": 0.09
-	},
-	{
-		"title": "Hotel Transylvania 2",
-		"studio": "Columbia",
-		"year": 2015,
-		"gross": "168471018",
-		"genre": "",
-		"grossPercent": 0.08
-	},
-	{
-		"title": "Goosebumps",
-		"studio": "Columbia",
-		"year": 2015,
-		"gross": "79132868",
-		"genre": "",
-		"grossPercent": 0.04
-	},
-	{
-		"title": "Pixels",
-		"studio": "Columbia",
-		"year": 2015,
-		"gross": "78747585",
-		"genre": "",
-		"grossPercent": 0.04
-	},
-	{
-		"title": "Paul Blart: Mall Cop 2",
-		"studio": "Columbia",
-		"year": 2015,
-		"gross": "71038190",
-		"genre": "",
-		"grossPercent": 0.03
-	},
-	{
-		"title": "War Room",
-		"studio": "Columbia",
-		"year": 2015,
-		"gross": "67790117",
-		"genre": "",
-		"grossPercent": 0.03
-	},
-	{
-		"title": "The Wedding Ringer",
-		"studio": "Columbia",
-		"year": 2015,
-		"gross": "64460211",
-		"genre": "",
-		"grossPercent": 0.03
-	},
-	{
-		"title": "The Perfect Guy",
-		"studio": "Columbia",
-		"year": 2015,
-		"gross": "57027435",
-		"genre": "",
-		"grossPercent": 0.03
-	},
-	{
-		"title": "The Night Before",
-		"studio": "Columbia",
-		"year": 2015,
-		"gross": "42884826",
-		"genre": "",
-		"grossPercent": 0.02
-	},
-	{
-		"title": "Chappie",
-		"studio": "Columbia",
-		"year": 2015,
-		"gross": "31569268",
-		"genre": "",
-		"grossPercent": 0.01
-	},
-	{
-		"title": "Star Wars: The Force Awakens",
-		"studio": "Disney",
-		"year": 2015,
-		"gross": "651967269",
-		"genre": "",
-		"grossPercent": 0.55
-	},
-	{
-		"title": "Avengers: Age of Ultron",
-		"studio": "Disney",
-		"year": 2015,
-		"gross": "459005868",
-		"genre": "",
-		"grossPercent": 0.39
-	},
-	{
-		"title": "Inside Out",
-		"studio": "Disney",
-		"year": 2015,
-		"gross": "356461711",
-		"genre": "",
-		"grossPercent": 0.3
-	},
-	{
-		"title": "Cinderella",
-		"studio": "Disney",
-		"year": 2015,
-		"gross": "201151353",
-		"genre": "",
-		"grossPercent": 0.17
-	},
-	{
-		"title": "Ant-Man",
-		"studio": "Disney",
-		"year": 2015,
-		"gross": "180202163",
-		"genre": "",
-		"grossPercent": 0.15
-	},
-	{
-		"title": "The Good Dinosaur",
-		"studio": "Disney",
-		"year": 2015,
-		"gross": "110716470",
-		"genre": "",
-		"grossPercent": 0.09
-	},
-	{
-		"title": "Tomorrowland",
-		"studio": "Disney",
-		"year": 2015,
-		"gross": "93436322",
-		"genre": "",
-		"grossPercent": 0.08
-	},
-	{
-		"title": "Bridge of Spies",
-		"studio": "Disney",
-		"year": 2015,
-		"gross": "70447776",
-		"genre": "",
-		"grossPercent": 0.06
-	},
-	{
-		"title": "Into the Woods",
-		"studio": "Disney",
-		"year": 2015,
-		"gross": "63940268",
-		"genre": "",
-		"grossPercent": 0.05
-	},
-	{
-		"title": "McFarland, USA",
-		"studio": "Disney",
-		"year": 2015,
-		"gross": "44482410",
-		"genre": "",
-		"grossPercent": 0.04
-	},
-	{
 		"title": "Mission: Impossible",
 		"studio": "Paramount",
 		"year": 2015,
 		"gross": "195042377",
 		"genre": "",
-		"grossPercent": 0.23
+		"grossPercent": 0.3
 	},
 	{
 		"title": "The SpongeBob Movie",
@@ -732,15 +572,15 @@
 		"year": 2015,
 		"gross": "162994032",
 		"genre": "",
-		"grossPercent": 0.19
+		"grossPercent": 0.25
 	},
 	{
-		"title": "Terminator: Genisys",
+		"title": "Terminator",
 		"studio": "Paramount",
 		"year": 2015,
 		"gross": "89760956",
 		"genre": "",
-		"grossPercent": 0.1
+		"grossPercent": 0.14
 	},
 	{
 		"title": "Daddy's Home",
@@ -748,7 +588,7 @@
 		"year": 2015,
 		"gross": "64684278",
 		"genre": "",
-		"grossPercent": 0.08
+		"grossPercent": 0.1
 	},
 	{
 		"title": "Selma",
@@ -756,7 +596,7 @@
 		"year": 2015,
 		"gross": "50872921",
 		"genre": "",
-		"grossPercent": 0.06
+		"grossPercent": 0.08
 	},
 	{
 		"title": "The Big Short",
@@ -764,7 +604,7 @@
 		"year": 2015,
 		"gross": "23995178",
 		"genre": "",
-		"grossPercent": 0.03
+		"grossPercent": 0.04
 	},
 	{
 		"title": "Project Almanac",
@@ -780,7 +620,7 @@
 		"year": 2015,
 		"gross": "18300124",
 		"genre": "",
-		"grossPercent": 0.02
+		"grossPercent": 0.03
 	},
 	{
 		"title": "The Gambler",
@@ -796,7 +636,87 @@
 		"year": 2015,
 		"gross": "12314651",
 		"genre": "",
-		"grossPercent": 0.01
+		"grossPercent": 0.02
+	},
+	{
+		"title": "Spectre",
+		"studio": "Columbia",
+		"year": 2015,
+		"gross": "197102585",
+		"genre": "",
+		"grossPercent": 0.23
+	},
+	{
+		"title": "Hotel Transylvania 2",
+		"studio": "Columbia",
+		"year": 2015,
+		"gross": "168471018",
+		"genre": "",
+		"grossPercent": 0.2
+	},
+	{
+		"title": "Goosebumps",
+		"studio": "Columbia",
+		"year": 2015,
+		"gross": "79132868",
+		"genre": "",
+		"grossPercent": 0.09
+	},
+	{
+		"title": "Pixels",
+		"studio": "Columbia",
+		"year": 2015,
+		"gross": "78747585",
+		"genre": "",
+		"grossPercent": 0.09
+	},
+	{
+		"title": "Paul Blart: Mall Cop 2",
+		"studio": "Columbia",
+		"year": 2015,
+		"gross": "71038190",
+		"genre": "",
+		"grossPercent": 0.08
+	},
+	{
+		"title": "War Room",
+		"studio": "Columbia",
+		"year": 2015,
+		"gross": "67790117",
+		"genre": "",
+		"grossPercent": 0.08
+	},
+	{
+		"title": "The Wedding Ringer",
+		"studio": "Columbia",
+		"year": 2015,
+		"gross": "64460211",
+		"genre": "",
+		"grossPercent": 0.08
+	},
+	{
+		"title": "The Perfect Guy",
+		"studio": "Columbia",
+		"year": 2015,
+		"gross": "57027435",
+		"genre": "",
+		"grossPercent": 0.07
+	},
+	{
+		"title": "The Night Before",
+		"studio": "Columbia",
+		"year": 2015,
+		"gross": "42884826",
+		"genre": "",
+		"grossPercent": 0.05
+	},
+	{
+		"title": "Chappie",
+		"studio": "Columbia",
+		"year": 2015,
+		"gross": "31569268",
+		"genre": "",
+		"grossPercent": 0.04
 	},
 	{
 		"title": "Jurassic World",
@@ -804,7 +724,7 @@
 		"year": 2015,
 		"gross": "652270625",
 		"genre": "",
-		"grossPercent": 1
+		"grossPercent": 0.3
 	},
 	{
 		"title": "Furious 7",
@@ -812,7 +732,7 @@
 		"year": 2015,
 		"gross": "353007020",
 		"genre": "",
-		"grossPercent": 0.54
+		"grossPercent": 0.16
 	},
 	{
 		"title": "Minions",
@@ -820,7 +740,7 @@
 		"year": 2015,
 		"gross": "336045770",
 		"genre": "",
-		"grossPercent": 0.51
+		"grossPercent": 0.16
 	},
 	{
 		"title": "Pitch Perfect 2",
@@ -828,7 +748,7 @@
 		"year": 2015,
 		"gross": "184296230",
 		"genre": "",
-		"grossPercent": 0.28
+		"grossPercent": 0.09
 	},
 	{
 		"title": "Fifty Shades of Grey",
@@ -836,7 +756,7 @@
 		"year": 2015,
 		"gross": "166167230",
 		"genre": "",
-		"grossPercent": 0.25
+		"grossPercent": 0.08
 	},
 	{
 		"title": "Straight Outta Compton",
@@ -844,7 +764,7 @@
 		"year": 2015,
 		"gross": "161197785",
 		"genre": "",
-		"grossPercent": 0.25
+		"grossPercent": 0.07
 	},
 	{
 		"title": "Trainwreck",
@@ -852,7 +772,7 @@
 		"year": 2015,
 		"gross": "110212700",
 		"genre": "",
-		"grossPercent": 0.17
+		"grossPercent": 0.05
 	},
 	{
 		"title": "Ted 2",
@@ -860,7 +780,7 @@
 		"year": 2015,
 		"gross": "81476385",
 		"genre": "",
-		"grossPercent": 0.12
+		"grossPercent": 0.04
 	},
 	{
 		"title": "The Visit",
@@ -868,7 +788,7 @@
 		"year": 2015,
 		"gross": "65206105",
 		"genre": "",
-		"grossPercent": 0.1
+		"grossPercent": 0.03
 	},
 	{
 		"title": "Unbroken",
@@ -876,7 +796,7 @@
 		"year": 2015,
 		"gross": "53109285",
 		"genre": "",
-		"grossPercent": 0.08
+		"grossPercent": 0.02
 	},
 	{
 		"title": "American Sniper",
@@ -884,7 +804,7 @@
 		"year": 2015,
 		"gross": "348797073",
 		"genre": "",
-		"grossPercent": 0.16
+		"grossPercent": 0.3
 	},
 	{
 		"title": "San Andreas",
@@ -892,7 +812,7 @@
 		"year": 2015,
 		"gross": "155190832",
 		"genre": "",
-		"grossPercent": 0.07
+		"grossPercent": 0.13
 	},
 	{
 		"title": "Mad Max: Fury Road",
@@ -900,7 +820,7 @@
 		"year": 2015,
 		"gross": "153636354",
 		"genre": "",
-		"grossPercent": 0.07
+		"grossPercent": 0.13
 	},
 	{
 		"title": "Creed",
@@ -908,7 +828,7 @@
 		"year": 2015,
 		"gross": "99385165",
 		"genre": "",
-		"grossPercent": 0.05
+		"grossPercent": 0.08
 	},
 	{
 		"title": "Get Hard",
@@ -916,7 +836,7 @@
 		"year": 2015,
 		"gross": "90411453",
 		"genre": "",
-		"grossPercent": 0.04
+		"grossPercent": 0.08
 	},
 	{
 		"title": "The Intern",
@@ -924,7 +844,7 @@
 		"year": 2015,
 		"gross": "75574886",
 		"genre": "",
-		"grossPercent": 0.03
+		"grossPercent": 0.06
 	},
 	{
 		"title": "Magic Mike XXL",
@@ -932,15 +852,15 @@
 		"year": 2015,
 		"gross": "66013057",
 		"genre": "",
-		"grossPercent": 0.03
+		"grossPercent": 0.06
 	},
 	{
-		"title": "The Hobbit",
+		"title": "The Hobbit 3",
 		"studio": "Warner Bros",
 		"year": 2015,
 		"gross": "65570462",
 		"genre": "",
-		"grossPercent": 0.03
+		"grossPercent": 0.06
 	},
 	{
 		"title": "Black Mass",
@@ -948,7 +868,7 @@
 		"year": 2015,
 		"gross": "62575678",
 		"genre": "",
-		"grossPercent": 0.03
+		"grossPercent": 0.05
 	},
 	{
 		"title": "Vacation",
@@ -956,7 +876,87 @@
 		"year": 2015,
 		"gross": "58884188",
 		"genre": "",
+		"grossPercent": 0.05
+	},
+	{
+		"title": "Star Wars",
+		"studio": "Disney",
+		"year": 2015,
+		"gross": "651967269",
+		"genre": "",
+		"grossPercent": 0.29
+	},
+	{
+		"title": "Avengers",
+		"studio": "Disney",
+		"year": 2015,
+		"gross": "459005868",
+		"genre": "",
+		"grossPercent": 0.21
+	},
+	{
+		"title": "Inside Out",
+		"studio": "Disney",
+		"year": 2015,
+		"gross": "356461711",
+		"genre": "",
+		"grossPercent": 0.16
+	},
+	{
+		"title": "Cinderella",
+		"studio": "Disney",
+		"year": 2015,
+		"gross": "201151353",
+		"genre": "",
+		"grossPercent": 0.09
+	},
+	{
+		"title": "Ant-Man",
+		"studio": "Disney",
+		"year": 2015,
+		"gross": "180202163",
+		"genre": "",
+		"grossPercent": 0.08
+	},
+	{
+		"title": "The Good Dinosaur",
+		"studio": "Disney",
+		"year": 2015,
+		"gross": "110716470",
+		"genre": "",
+		"grossPercent": 0.05
+	},
+	{
+		"title": "Tomorrowland",
+		"studio": "Disney",
+		"year": 2015,
+		"gross": "93436322",
+		"genre": "",
+		"grossPercent": 0.04
+	},
+	{
+		"title": "Bridge of Spies",
+		"studio": "Disney",
+		"year": 2015,
+		"gross": "70447776",
+		"genre": "",
 		"grossPercent": 0.03
+	},
+	{
+		"title": "Into the Woods",
+		"studio": "Disney",
+		"year": 2015,
+		"gross": "63940268",
+		"genre": "",
+		"grossPercent": 0.03
+	},
+	{
+		"title": "McFarland, USA",
+		"studio": "Disney",
+		"year": 2015,
+		"gross": "44482410",
+		"genre": "",
+		"grossPercent": 0.02
 	},
 	{
 		"title": "Deadpool",
@@ -999,7 +999,7 @@
 		"grossPercent": 0.11
 	},
 	{
-		"title": "Independence Day: Resurgence",
+		"title": "Independence Day",
 		"studio": "20th Century Fox",
 		"year": 2016,
 		"gross": "103144286",
@@ -1015,7 +1015,7 @@
 		"grossPercent": 0.07
 	},
 	{
-		"title": "Ice Age: Collision Course",
+		"title": "Ice Age",
 		"studio": "20th Century Fox",
 		"year": 2016,
 		"gross": "64063008",
@@ -1039,172 +1039,12 @@
 		"grossPercent": 0.03
 	},
 	{
-		"title": "Ghostbusters",
-		"studio": "Columbia",
-		"year": 2016,
-		"gross": "128350574",
-		"genre": "",
-		"grossPercent": 0.04
-	},
-	{
-		"title": "The Angry Birds Movie",
-		"studio": "Columbia",
-		"year": 2016,
-		"gross": "107509366",
-		"genre": "",
-		"grossPercent": 0.04
-	},
-	{
-		"title": "Sausage Party",
-		"studio": "Columbia",
-		"year": 2016,
-		"gross": "97685686",
-		"genre": "",
-		"grossPercent": 0.03
-	},
-	{
-		"title": "The Magnificent Seven",
-		"studio": "Columbia",
-		"year": 2016,
-		"gross": "93420253",
-		"genre": "",
-		"grossPercent": 0.03
-	},
-	{
-		"title": "Don't Breathe",
-		"studio": "Columbia",
-		"year": 2016,
-		"gross": "89217875",
-		"genre": "",
-		"grossPercent": 0.03
-	},
-	{
-		"title": "Miracles from Heaven",
-		"studio": "Columbia",
-		"year": 2016,
-		"gross": "61705123",
-		"genre": "",
-		"grossPercent": 0.02
-	},
-	{
-		"title": "Passengers ",
-		"studio": "Columbia",
-		"year": 2016,
-		"gross": "55380209",
-		"genre": "",
-		"grossPercent": 0.02
-	},
-	{
-		"title": "The Shallows",
-		"studio": "Columbia",
-		"year": 2016,
-		"gross": "55124043",
-		"genre": "",
-		"grossPercent": 0.02
-	},
-	{
-		"title": "Money Monster",
-		"studio": "Columbia",
-		"year": 2016,
-		"gross": "41012075",
-		"genre": "",
-		"grossPercent": 0.01
-	},
-	{
-		"title": "Risen",
-		"studio": "Columbia",
-		"year": 2016,
-		"gross": "36880033",
-		"genre": "",
-		"grossPercent": 0.01
-	},
-	{
-		"title": "Finding Dory",
-		"studio": "Disney",
-		"year": 2016,
-		"gross": "486295561",
-		"genre": "",
-		"grossPercent": 0.31
-	},
-	{
-		"title": "Rogue One: A Star Wars Story",
-		"studio": "Disney",
-		"year": 2016,
-		"gross": "408235850",
-		"genre": "",
-		"grossPercent": 0.26
-	},
-	{
-		"title": "Captain America: Civil War",
-		"studio": "Disney",
-		"year": 2016,
-		"gross": "408084349",
-		"genre": "",
-		"grossPercent": 0.26
-	},
-	{
-		"title": "The Jungle Book",
-		"studio": "Disney",
-		"year": 2016,
-		"gross": "364001123",
-		"genre": "",
-		"grossPercent": 0.23
-	},
-	{
-		"title": "Zootopia",
-		"studio": "Disney",
-		"year": 2016,
-		"gross": "341268248",
-		"genre": "",
-		"grossPercent": 0.22
-	},
-	{
-		"title": "Star Wars: The Force Awakens",
-		"studio": "Disney",
-		"year": 2016,
-		"gross": "284694956",
-		"genre": "",
-		"grossPercent": 0.18
-	},
-	{
-		"title": "Doctor Strange",
-		"studio": "Disney",
-		"year": 2016,
-		"gross": "229876337",
-		"genre": "",
-		"grossPercent": 0.15
-	},
-	{
-		"title": "Moana",
-		"studio": "Disney",
-		"year": 2016,
-		"gross": "206477478",
-		"genre": "",
-		"grossPercent": 0.13
-	},
-	{
-		"title": "Alice Through the Looking Glass",
-		"studio": "Disney",
-		"year": 2016,
-		"gross": "77041381",
-		"genre": "",
-		"grossPercent": 0.05
-	},
-	{
-		"title": "Pete's Dragon",
-		"studio": "Disney",
-		"year": 2016,
-		"gross": "76233151",
-		"genre": "",
-		"grossPercent": 0.05
-	},
-	{
 		"title": "Star Trek Beyond",
 		"studio": "Paramount",
 		"year": 2016,
 		"gross": "158848340",
 		"genre": "",
-		"grossPercent": 0.21
+		"grossPercent": 0.22
 	},
 	{
 		"title": "Arrival",
@@ -1220,7 +1060,7 @@
 		"year": 2016,
 		"gross": "85672859",
 		"genre": "",
-		"grossPercent": 0.11
+		"grossPercent": 0.12
 	},
 	{
 		"title": "Teenage Mutant Ninja Turtles",
@@ -1236,7 +1076,7 @@
 		"year": 2016,
 		"gross": "72082998",
 		"genre": "",
-		"grossPercent": 0.09
+		"grossPercent": 0.1
 	},
 	{
 		"title": "Jack Reacher: Never Go Back",
@@ -1279,12 +1119,92 @@
 		"grossPercent": 0.05
 	},
 	{
+		"title": "Ghostbusters",
+		"studio": "Columbia",
+		"year": 2016,
+		"gross": "128350574",
+		"genre": "",
+		"grossPercent": 0.17
+	},
+	{
+		"title": "The Angry Birds Movie",
+		"studio": "Columbia",
+		"year": 2016,
+		"gross": "107509366",
+		"genre": "",
+		"grossPercent": 0.14
+	},
+	{
+		"title": "Sausage Party",
+		"studio": "Columbia",
+		"year": 2016,
+		"gross": "97685686",
+		"genre": "",
+		"grossPercent": 0.13
+	},
+	{
+		"title": "The Magnificent Seven",
+		"studio": "Columbia",
+		"year": 2016,
+		"gross": "93420253",
+		"genre": "",
+		"grossPercent": 0.12
+	},
+	{
+		"title": "Don't Breathe",
+		"studio": "Columbia",
+		"year": 2016,
+		"gross": "89217875",
+		"genre": "",
+		"grossPercent": 0.12
+	},
+	{
+		"title": "Miracles from Heaven",
+		"studio": "Columbia",
+		"year": 2016,
+		"gross": "61705123",
+		"genre": "",
+		"grossPercent": 0.08
+	},
+	{
+		"title": "Passengers ",
+		"studio": "Columbia",
+		"year": 2016,
+		"gross": "55380209",
+		"genre": "",
+		"grossPercent": 0.07
+	},
+	{
+		"title": "The Shallows",
+		"studio": "Columbia",
+		"year": 2016,
+		"gross": "55124043",
+		"genre": "",
+		"grossPercent": 0.07
+	},
+	{
+		"title": "Money Monster",
+		"studio": "Columbia",
+		"year": 2016,
+		"gross": "41012075",
+		"genre": "",
+		"grossPercent": 0.05
+	},
+	{
+		"title": "Risen",
+		"studio": "Columbia",
+		"year": 2016,
+		"gross": "36880033",
+		"genre": "",
+		"grossPercent": 0.05
+	},
+	{
 		"title": "The Secret Life of Pets",
 		"studio": "Universal",
 		"year": 2016,
 		"gross": "368384330",
 		"genre": "",
-		"grossPercent": 0.5
+		"grossPercent": 0.32
 	},
 	{
 		"title": "Jason Bourne",
@@ -1292,7 +1212,7 @@
 		"year": 2016,
 		"gross": "162434410",
 		"genre": "",
-		"grossPercent": 0.22
+		"grossPercent": 0.14
 	},
 	{
 		"title": "Sing",
@@ -1300,7 +1220,7 @@
 		"year": 2016,
 		"gross": "152853995",
 		"genre": "",
-		"grossPercent": 0.21
+		"grossPercent": 0.13
 	},
 	{
 		"title": "Ride Along 2",
@@ -1308,15 +1228,15 @@
 		"year": 2016,
 		"gross": "91221830",
 		"genre": "",
-		"grossPercent": 0.12
+		"grossPercent": 0.08
 	},
 	{
-		"title": "The Purge: Election Year",
+		"title": "The Purge",
 		"studio": "Universal",
 		"year": 2016,
 		"gross": "79213375",
 		"genre": "",
-		"grossPercent": 0.11
+		"grossPercent": 0.07
 	},
 	{
 		"title": "The Girl on the Train ",
@@ -1324,7 +1244,7 @@
 		"year": 2016,
 		"gross": "75395035",
 		"genre": "",
-		"grossPercent": 0.1
+		"grossPercent": 0.07
 	},
 	{
 		"title": "The Boss",
@@ -1332,7 +1252,7 @@
 		"year": 2016,
 		"gross": "63285885",
 		"genre": "",
-		"grossPercent": 0.09
+		"grossPercent": 0.05
 	},
 	{
 		"title": "My Big Fat Greek Wedding 2",
@@ -1340,23 +1260,23 @@
 		"year": 2016,
 		"gross": "59689605",
 		"genre": "",
-		"grossPercent": 0.08
+		"grossPercent": 0.05
 	},
 	{
-		"title": "Neighbors 2: Sorority Rising",
+		"title": "Neighbors 2",
 		"studio": "Universal",
 		"year": 2016,
 		"gross": "55455765",
 		"genre": "",
-		"grossPercent": 0.08
+		"grossPercent": 0.05
 	},
 	{
-		"title": "The Huntsman: Winter's War",
+		"title": "The Huntsman",
 		"studio": "Universal",
 		"year": 2016,
 		"gross": "48390190",
 		"genre": "",
-		"grossPercent": 0.07
+		"grossPercent": 0.04
 	},
 	{
 		"title": "Batman v Superman",
@@ -1364,7 +1284,7 @@
 		"year": 2016,
 		"gross": "330360194",
 		"genre": "",
-		"grossPercent": 0.29
+		"grossPercent": 0.21
 	},
 	{
 		"title": "Suicide Squad",
@@ -1372,7 +1292,7 @@
 		"year": 2016,
 		"gross": "325100054",
 		"genre": "",
-		"grossPercent": 0.28
+		"grossPercent": 0.21
 	},
 	{
 		"title": "Fantastic Beasts",
@@ -1380,7 +1300,7 @@
 		"year": 2016,
 		"gross": "222675573",
 		"genre": "",
-		"grossPercent": 0.19
+		"grossPercent": 0.14
 	},
 	{
 		"title": "Central Intelligence",
@@ -1388,7 +1308,7 @@
 		"year": 2016,
 		"gross": "127440871",
 		"genre": "",
-		"grossPercent": 0.11
+		"grossPercent": 0.08
 	},
 	{
 		"title": "The Legend of Tarzan",
@@ -1396,7 +1316,7 @@
 		"year": 2016,
 		"gross": "126643061",
 		"genre": "",
-		"grossPercent": 0.11
+		"grossPercent": 0.08
 	},
 	{
 		"title": "Sully",
@@ -1404,7 +1324,7 @@
 		"year": 2016,
 		"gross": "124976335",
 		"genre": "",
-		"grossPercent": 0.11
+		"grossPercent": 0.08
 	},
 	{
 		"title": "The Conjuring 2",
@@ -1412,7 +1332,7 @@
 		"year": 2016,
 		"gross": "102470008",
 		"genre": "",
-		"grossPercent": 0.09
+		"grossPercent": 0.06
 	},
 	{
 		"title": "The Accountant",
@@ -1420,7 +1340,7 @@
 		"year": 2016,
 		"gross": "85856696",
 		"genre": "",
-		"grossPercent": 0.07
+		"grossPercent": 0.05
 	},
 	{
 		"title": "Storks",
@@ -1428,7 +1348,7 @@
 		"year": 2016,
 		"gross": "72414850",
 		"genre": "",
-		"grossPercent": 0.06
+		"grossPercent": 0.05
 	},
 	{
 		"title": "Lights Out",
@@ -1436,6 +1356,86 @@
 		"year": 2016,
 		"gross": "67268835",
 		"genre": "",
-		"grossPercent": 0.06
+		"grossPercent": 0.04
+	},
+	{
+		"title": "Finding Dory",
+		"studio": "Disney",
+		"year": 2016,
+		"gross": "486295561",
+		"genre": "",
+		"grossPercent": 0.17
+	},
+	{
+		"title": "Rogue One",
+		"studio": "Disney",
+		"year": 2016,
+		"gross": "408235850",
+		"genre": "",
+		"grossPercent": 0.14
+	},
+	{
+		"title": "Captain America",
+		"studio": "Disney",
+		"year": 2016,
+		"gross": "408084349",
+		"genre": "",
+		"grossPercent": 0.14
+	},
+	{
+		"title": "The Jungle Book",
+		"studio": "Disney",
+		"year": 2016,
+		"gross": "364001123",
+		"genre": "",
+		"grossPercent": 0.13
+	},
+	{
+		"title": "Zootopia",
+		"studio": "Disney",
+		"year": 2016,
+		"gross": "341268248",
+		"genre": "",
+		"grossPercent": 0.12
+	},
+	{
+		"title": "Star Wars",
+		"studio": "Disney",
+		"year": 2016,
+		"gross": "284694956",
+		"genre": "",
+		"grossPercent": 0.1
+	},
+	{
+		"title": "Doctor Strange",
+		"studio": "Disney",
+		"year": 2016,
+		"gross": "229876337",
+		"genre": "",
+		"grossPercent": 0.08
+	},
+	{
+		"title": "Moana",
+		"studio": "Disney",
+		"year": 2016,
+		"gross": "206477478",
+		"genre": "",
+		"grossPercent": 0.07
+	},
+	{
+		"title": "Alice Through the Looking Glass",
+		"studio": "Disney",
+		"year": 2016,
+		"gross": "77041381",
+		"genre": "",
+		"grossPercent": 0.03
+	},
+	{
+		"title": "Pete's Dragon",
+		"studio": "Disney",
+		"year": 2016,
+		"gross": "76233151",
+		"genre": "",
+		"grossPercent": 0.03
 	}
 ]
