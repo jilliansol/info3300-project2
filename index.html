@@ -46,7 +46,6 @@ d3.json("movies.json",function(error,data){
     var year = d3.nest().key(function(d){
         return d.year;})
         .entries(movie);
-//    console.log(year);
 });
 
 
@@ -92,7 +91,6 @@ d3.json("market.json", function(error, data) {
         .attr("dy", ".35em")
         .style("text-anchor", "middle")
         .text(function (d) { return d.data.studio; })
-//        .text(function (d) { return d.data.market_share});
     }
   }
 });
@@ -103,13 +101,9 @@ d3.json("market.json", function(error, data) {
 var nod;
 function matchStudio(nodes, studio, year) {
 d3.selectAll(".svg2content").remove();
-//    var g = 50;
     var h = 0;
     var fontTotal = 5000;
     for (i=0; i<nodes.length; i++){
-//        console.log("year",year);
-//        console.log("nodes[i]",nodes[i].year);
-//        console.log("nodadfa",nodes[i].grossPercent);
       if (studio == nodes[i].studio && year == nodes[i].year) {
         nod = nodes[i];
         d3.select("#svg2").append("text")
@@ -131,7 +125,6 @@ d3.selectAll(".svg2content").remove();
 }
 
 function mouseover(d) {
-    console.log(d);
     var gross  = "$" + d.gross;
     var grossString = "Gross: " + gross;
 
@@ -149,8 +142,6 @@ function mouseover(d) {
       .style("visibility", "");
     }
 
-//    d3.selectAll("path")
-//      .style("opacity", 0.25);
   }
 
   function mouseleave(d) {
@@ -183,7 +174,6 @@ function which_year(element, year){
   buttonClicked.style.color = "white";
 }
 data_by_year(2016);
-console.log(buttonClicked);
 </script>
 
 </body>
